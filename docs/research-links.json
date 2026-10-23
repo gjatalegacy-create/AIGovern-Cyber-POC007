@@ -88,6 +88,15 @@
     {
       "relation": "artifact_discussion",
       "url": "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-007-aigovern-cyber/discussions"
+    },
+    {
+      "relation": "author_published_channel",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/gjata_legacy/",
+      "provenance": "Linked from the author's existing public GitHub profile README; not separately authenticated through Instagram.",
+      "source_url": "https://github.com/gjatalegacy-create/gjatalegacy-create/blob/main/README.md",
+      "source_blob_sha": "2c5dd2d59516da1193153ff1f3427408c8b6ad16",
+      "verified_utc": "2026-10-23T13:14:18+00:00"
     }
   ],
   "new_publication_doi": "10.5281/zenodo.23596907",

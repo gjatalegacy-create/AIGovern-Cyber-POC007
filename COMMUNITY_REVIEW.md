@@ -21,8 +21,9 @@ The organization and its rules are forthcoming. Its beginnings are being shared 
 - [Gjata Legacy on Hugging Face](https://huggingface.co/gjata-legacy)
 - [Bledar Gjata on LinkedIn](https://www.linkedin.com/in/bledar-gjata-1a527030b/)
 - [Gjata Legacy Facebook fan page](https://www.facebook.com/gjatalegacy/)
+- [Gjata Legacy on Instagram](https://www.instagram.com/gjata_legacy/) — linked from the author's [existing GitHub profile](https://github.com/gjatalegacy-create/gjatalegacy-create/blob/main/README.md).
 
-The author also reports activity on Instagram; no Instagram profile is linked here until its exact address is verified. Follow the existing channels for the forthcoming organizational rules. Participation in this review invitation creates no membership obligation.
+Follow the existing channels for the forthcoming organizational rules. Participation in this review invitation creates no membership obligation.
 
 ## How this work was produced
 
