@@ -54,7 +54,8 @@
       "doi_url": "https://doi.org/10.5281/zenodo.23597026",
       "concept_doi": "10.5281/zenodo.23597025",
       "publication_status": "Published as a Zenodo preprint",
-      "openaire_status": "No matching record returned by Graph API at 2026-10-23T13:07:16+00:00"
+      "openaire_status": "Matching publication record confirmed on 2026-10-23; record od______2659::e92fc3b927e1cb98b06c045194e681bc. Indexing is not peer review.",
+      "openaire_previous_observation": "No matching record returned by Graph API at 2026-10-23T13:07:16+00:00"
     },
     {
       "relation": "parent_project",
@@ -97,6 +98,28 @@
       "source_url": "https://github.com/gjatalegacy-create/gjatalegacy-create/blob/main/README.md",
       "source_blob_sha": "2c5dd2d59516da1193153ff1f3427408c8b6ad16",
       "verified_utc": "2026-10-23T13:14:18+00:00"
+    },
+    {
+      "relation": "external_review_request",
+      "platform": "PREreview",
+      "url": "https://prereview.org/preprints/doi-10.5281-zenodo.23597026",
+      "status": "Request published; zero completed PREreviews at observation on 2026-10-23"
+    },
+    {
+      "relation": "source_preservation",
+      "platform": "Software Heritage",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/e0db9680a3e9f1103b8ea8486a6b3ecd12d2c721/",
+      "snapshot_swhid": "swh:1:snp:e0db9680a3e9f1103b8ea8486a6b3ecd12d2c721",
+      "frozen_release_revision": "1407466d1794f1a11defe1174d16a76724e63bc3",
+      "visit_status": "full",
+      "save_task_status": "succeeded",
+      "scope": "Preservation, not code validation; snapshot predates this documentation update."
+    },
+    {
+      "relation": "prior_artifact_external_feedback",
+      "artifact": "POC005",
+      "url": "https://github.com/gjatalegacy-create/ESS-MAI/discussions/13",
+      "scope": "External technical feedback on published evidence and a described simplified model. Reviewer did not run original Rust POC. Not POC007 review."
     }
   ],
   "new_publication_doi": "10.5281/zenodo.23596907",
