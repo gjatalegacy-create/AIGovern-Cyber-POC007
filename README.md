@@ -15,6 +15,10 @@ pretty_name: AIGovern-Cyber POC007 — Obligation Promise Law to Success
 
 # AIGovern-Cyber POC007
 
+[![OpenSSF Baseline](https://www.bestpractices.dev/projects/15834/baseline)](https://www.bestpractices.dev/projects/15834)
+
+OpenSSF Baseline Level 1 assessment in progress; not a security certification.
+
 A small, runnable historical reference for the ESS-MAI method by **Bledar Gjata**, Gjata Legacy. Publication bundle **0.1.2** preserves the historical v0.1.1 capsule's executable source exactly; its Cargo crate remains version **0.1.0**.
 
 **Documentation status:** the current main branch adds publication and community-review documentation to the frozen [public bundle 0.1.2](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007/releases/tag/poc007-public-v0.1.2). These documentation changes do not introduce runtime changes or a new code-validation result.
