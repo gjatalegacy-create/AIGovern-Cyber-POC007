@@ -18,10 +18,12 @@ Updated 23 October 2026. This register links the author's public channels and di
 | POC007 preprint | [DOI 10.5281/zenodo.23597026](https://doi.org/10.5281/zenodo.23597026) | Separate manuscript, not peer reviewed; not an arXiv publication |
 | Public website | [Code, evidence and review](https://gjatalegacy-create.github.io/AIGovern-Cyber-POC007/) | Entry point for reproduction and the paper |
 | Community initiative | [Hugging Face Gjata Legacy](https://huggingface.co/gjata-legacy) | Public research community; organizational rules are forthcoming, no legal registration asserted |
+| Companion UI source | [ESS-MAI UI / Nura Legacy](https://github.com/gjatalegacy-create/ESS-MAI-UI) | Complete UI source, assets and tests; distinct from the POC007 capsule |
+| Companion UI distribution | [Hugging Face UI package](https://huggingface.co/datasets/gjata-legacy/ess-mai-ui-nura-legacy) | UI source plus distributable corpora and rebuilt graph; excluded data and test limits documented |
 
 ## Author-declared public channels
 
-[LinkedIn](https://www.linkedin.com/in/bledar-gjata-1a527030b/) · [Instagram](https://www.instagram.com/gjata_legacy/) · [Facebook GJATA](https://www.facebook.com/gjatalegacy/) · [YouTube](https://www.youtube.com/@GjataLegacy) · [X](https://x.com/Gjata_Legacy).
+[HackerNoon](https://hackernoon.com/u/gjatalegacy) · [LinkedIn](https://www.linkedin.com/in/bledar-gjata-1a527030b/) · [Instagram](https://www.instagram.com/gjata_legacy/) · [Facebook GJATA](https://www.facebook.com/gjatalegacy/) · [YouTube](https://www.youtube.com/@GjataLegacy) · [X](https://x.com/Gjata_Legacy).
 
 These links are declared by the author in existing public profiles. Linking them is not independent identity verification or a claim that every platform account has been authenticated in this workflow. ORCID, the GitHub profile and the Hugging Face organization link the research artifacts; the social channels serve communication, not technical proof.
 
@@ -36,7 +38,7 @@ These links are declared by the author in existing public profiles. Linking them
 | [OSOR / Interoperable Europe](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor) | Suitability enquiry sent; portal account application pending administrator approval; technical document prepared, not submitted | No public-sector deployment, EU adoption or catalogue acceptance claimed |
 | [JOSS](https://joss.theoj.org/about) | Pre-submission scope/readiness enquiry sent; not a paper submission | Six months of active public development and other gates remain required; acceptance is not established |
 | [OpenSSF Baseline assessment](https://www.bestpractices.dev/en/projects/15834/baseline-1) | Registered and self-assessment published: 18/24 controls, in progress (23 October 2026) | No completed badge, external security audit or certification; percentage measures assessment progress, not security |
-| [OpenAI Codex for Open Source](https://developers.openai.com/community/codex-for-oss) | Application material prepared; not submitted | Tool support is not OpenAI endorsement or promised human engineering review |
+| [OpenAI Codex for Open Source](https://developers.openai.com/community/codex-for-oss) | Application submitted; receipt confirmed, selection pending | Tool support is not OpenAI endorsement or promised human engineering review |
 | [OpenAI Developer Community](https://community.openai.com/c/community/21) | Focused technical post prepared; not published | Community discussion does not guarantee an OpenAI staff response |
 
 The earlier [review and preservation register](REVIEW_NETWORK.md) records Software Heritage snapshots, OpenAIRE observations, OpenAlex and Semantic Scholar enquiries, and the limitations of automated checks. Multiple mirrors and DOI metadata records are not counted as independent citations or reviews.
@@ -48,3 +50,5 @@ Bledar Gjata directs the architectural design and reports inspecting code and ex
 The public capsule is Apache-2.0; review is voluntary and commercial use follows that license. Further private development is disclosed as separate, not hidden behind the reproduction instructions. Reviewers are invited to identify failed obligations, unsupported claims, counterexamples and reproducibility gaps with exact versions and commands. No favorable review, citation or institutional endorsement is required or implied.
 
 The [ESS-MAI technical research case](ESS_MAI_RESEARCH_CASE.md) brings POC003–007 together for focused review, with source lineage, published results, adverse findings and explicit private-product limits. It is a research brief, not an institutional assessment.
+
+The author's HackerNoon technical article was submitted for editorial consideration on 23 October 2026; submission is not publication or completed technical review.

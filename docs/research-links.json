@@ -137,6 +137,24 @@
       "title": "ESS-MAI: an executable research case for evidence-bound authority",
       "url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007/blob/main/ESS_MAI_RESEARCH_CASE.md",
       "scope": "POC003–007 public evidence and source-method lineage; private AIGovern-Cyber runtime excluded."
+    },
+    {
+      "relation": "related_artifact",
+      "name": "ESS-MAI UI / Nura Legacy",
+      "url": "https://github.com/gjatalegacy-create/ESS-MAI-UI",
+      "scope": "UI code, assets and tests; separate from the POC007 capsule"
+    },
+    {
+      "relation": "artifact_distribution",
+      "name": "ESS-MAI UI full distribution",
+      "url": "https://huggingface.co/datasets/gjata-legacy/ess-mai-ui-nura-legacy",
+      "scope": "Complete UI source plus eligible corpora; exclusions documented"
+    },
+    {
+      "relation": "author_channel",
+      "platform": "HackerNoon",
+      "url": "https://hackernoon.com/u/gjatalegacy",
+      "status": "Author profile public; technical article submitted, not yet published"
     }
   ],
   "new_publication_doi": "10.5281/zenodo.23596907",
@@ -170,11 +188,16 @@
     },
     {
       "platform": "OpenAI Codex for Open Source",
-      "status": "Application prepared, not submitted"
+      "status": "Application submitted; receipt confirmed on 2026-10-23; selection pending. Not endorsement or a promised human engineering review."
     },
     {
       "platform": "OpenAI Developer Community",
       "status": "Technical post prepared, not published"
+    },
+    {
+      "platform": "HackerNoon",
+      "status": "Technical article submitted for editorial consideration; not yet published or technically reviewed",
+      "author_profile": "https://hackernoon.com/u/gjatalegacy"
     }
   ]
 }
