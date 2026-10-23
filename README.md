@@ -47,6 +47,8 @@ Licensed under [Apache-2.0](LICENSE), including commercial use under its terms. 
 
 ## Research and provenance
 
+**For technical reviewers:** [ESS-MAI as the originating method: POC003–007, derivation, evidence and open questions](ESS_MAI_RESEARCH_CASE.md). This research case separates public reproducible artifacts from private product development and identifies concrete counterexamples worth testing.
+
 **Software citation:** Bledar Gjata (2026), *AIGovern-Cyber POC007: Obligation Promise Law to Success — historical reference capsule*, version 0.1.2. Zenodo. [DOI 10.5281/zenodo.23596907](https://doi.org/10.5281/zenodo.23596907). This DOI identifies the frozen software archive, not the manuscript or later main-branch documentation.
 
 The [OpenAIRE software record](https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.23596907) was returned by its public API on 23 October 2026 with status `UNDER_CURATION`. This confirms discoverability, not completed curation or peer review.

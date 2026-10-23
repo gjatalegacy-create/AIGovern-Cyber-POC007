@@ -131,6 +131,12 @@
       "controls_satisfied_or_not_applicable": 18,
       "controls_total": 24,
       "scope": "Public POC007 capsule only. Maintainer self-assessment, not independent review, a security score, or certification."
+    },
+    {
+      "relation": "technical_review_brief",
+      "title": "ESS-MAI: an executable research case for evidence-bound authority",
+      "url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007/blob/main/ESS_MAI_RESEARCH_CASE.md",
+      "scope": "POC003–007 public evidence and source-method lineage; private AIGovern-Cyber runtime excluded."
     }
   ],
   "new_publication_doi": "10.5281/zenodo.23596907",
@@ -151,7 +157,7 @@
     },
     {
       "platform": "OSOR",
-      "status": "Suitability enquiry sent; not accepted or listed"
+      "status": "Suitability enquiry sent; portal account pending administrator approval; technical document prepared, not submitted"
     },
     {
       "platform": "JOSS",
