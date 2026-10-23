@@ -35,7 +35,7 @@ These links are declared by the author in existing public profiles. Linking them
 | [Research Software Directory](https://research-software-directory.org/documentation/users/getting-access/) | ORCID access request sent to the published RSD contact | Not yet an approved account or software listing |
 | [OSOR / Interoperable Europe](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor) | Suitability enquiry sent for the appropriate technical/community channel | No public-sector deployment, EU adoption or catalogue acceptance claimed |
 | [JOSS](https://joss.theoj.org/about) | Pre-submission scope/readiness enquiry sent; not a paper submission | Six months of active public development and other gates remain required; acceptance is not established |
-| [OpenSSF Best Practices](https://www.bestpractices.dev/en) | Candidate route; registration/assessment not completed | The program is self-assessment, not an external security audit or certification |
+| [OpenSSF Baseline assessment](https://www.bestpractices.dev/en/projects/15834/baseline-1) | Registered and self-assessment published: 18/24 controls, in progress (23 October 2026) | No completed badge, external security audit or certification; percentage measures assessment progress, not security |
 | [OpenAI Codex for Open Source](https://developers.openai.com/community/codex-for-oss) | Application material prepared; not submitted | Tool support is not OpenAI endorsement or promised human engineering review |
 | [OpenAI Developer Community](https://community.openai.com/c/community/21) | Focused technical post prepared; not published | Community discussion does not guarantee an OpenAI staff response |
 

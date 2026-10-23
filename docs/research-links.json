@@ -120,6 +120,17 @@
       "artifact": "POC005",
       "url": "https://github.com/gjatalegacy-create/ESS-MAI/discussions/13",
       "scope": "External technical feedback on published evidence and a described simplified model. Reviewer did not run original Rust POC. Not POC007 review."
+    },
+    {
+      "relation": "security_practice_self_assessment",
+      "platform": "OpenSSF Best Practices",
+      "url": "https://www.bestpractices.dev/en/projects/15834/baseline-1",
+      "criteria_version": "v2026.08.28",
+      "observed_date": "2026-10-23",
+      "status": "in_progress",
+      "controls_satisfied_or_not_applicable": 18,
+      "controls_total": 24,
+      "scope": "Public POC007 capsule only. Maintainer self-assessment, not independent review, a security score, or certification."
     }
   ],
   "new_publication_doi": "10.5281/zenodo.23596907",
@@ -148,7 +159,8 @@
     },
     {
       "platform": "OpenSSF Best Practices",
-      "status": "Registration not completed; no badge earned"
+      "status": "Project 15834 registered; Baseline Level 1 self-assessment saved, 18/24 controls, in progress; no completed badge",
+      "url": "https://www.bestpractices.dev/en/projects/15834/baseline-1"
     },
     {
       "platform": "OpenAI Codex for Open Source",
