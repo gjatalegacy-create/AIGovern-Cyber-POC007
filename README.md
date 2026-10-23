@@ -59,3 +59,5 @@ Run `python verify_manifest.py` against the manifest belonging to your checkout.
 
 
 Review update (23 October 2026): the [PREreview request](https://prereview.org/preprints/doi-10.5281-zenodo.23597026) is published and Software Heritage has archived the public release. See the [review and preservation register](REVIEW_NETWORK.md) for exact identifiers, POC005 external feedback, pending indexing requests, and the limits of automated repository checks.
+
+The [public identity and research network](PUBLIC_NETWORK.md) links ESS-MAI, POC003-007, ORCID, Zenodo, GitHub and Hugging Face, and distinguishes published review requests from pending platform access and editorial enquiries.

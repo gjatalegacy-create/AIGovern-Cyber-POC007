@@ -125,5 +125,38 @@
   "new_publication_doi": "10.5281/zenodo.23596907",
   "identifier_note": "Listings, identifiers and links establish provenance or discoverability, not scientific validation or independent review.",
   "new_publication_doi_resource_type": "Software",
-  "manuscript_doi": "10.5281/zenodo.23597026"
+  "manuscript_doi": "10.5281/zenodo.23597026",
+  "identity_network": {
+    "path": "PUBLIC_NETWORK.md",
+    "author_profile": "https://github.com/gjatalegacy-create",
+    "orcid": "https://orcid.org/0009-0003-7854-266X",
+    "hf_community": "https://huggingface.co/gjata-legacy",
+    "scope": "Author-declared crosslinks; not third-party identity verification or endorsement."
+  },
+  "outreach_status_20261023": [
+    {
+      "platform": "Research Software Directory",
+      "status": "ORCID access request sent; not accepted or listed"
+    },
+    {
+      "platform": "OSOR",
+      "status": "Suitability enquiry sent; not accepted or listed"
+    },
+    {
+      "platform": "JOSS",
+      "status": "Pre-submission scope enquiry sent; no submission or review"
+    },
+    {
+      "platform": "OpenSSF Best Practices",
+      "status": "Registration not completed; no badge earned"
+    },
+    {
+      "platform": "OpenAI Codex for Open Source",
+      "status": "Application prepared, not submitted"
+    },
+    {
+      "platform": "OpenAI Developer Community",
+      "status": "Technical post prepared, not published"
+    }
+  ]
 }

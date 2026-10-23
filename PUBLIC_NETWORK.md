@@ -1,0 +1,48 @@
+# ESS-MAI public identity, artifacts and review routes
+
+Updated 23 October 2026. This register links the author's public channels and distinguishes their roles. Links, accounts, indexing and archival identifiers do not establish scientific validation, novelty or institutional endorsement.
+
+## One research lineage, separate artifacts
+
+**Bledar Gjata / Gjata Legacy → ESS-MAI → POC003–006 and POC007 / AIGovern-Cyber.** POC007 is derived from the ESS-MAI method. The public POC007 capsule is a small, self-contained historical reference, distinct from further private AIGovern-Cyber development. It does not require private runtime code to reproduce its disclosed fixtures.
+
+| Resource | Authoritative public location | Role |
+|---|---|---|
+| Author identity | [ORCID 0009-0003-7854-266X](https://orcid.org/0009-0003-7854-266X) | Persistent author identifier and works list; self-asserted profile information is not independent certification |
+| Author profile | [GitHub gjatalegacy-create](https://github.com/gjatalegacy-create) | Maintainer and public project links |
+| Parent project | [ESS-MAI](https://github.com/gjatalegacy-create/ESS-MAI) | Method, public source, bounded claims, earlier capsules |
+| POC003–006 | [Software DOI 10.5281/zenodo.22750188](https://doi.org/10.5281/zenodo.22750188) | Exact collection v1.1.1; [HF collection](https://huggingface.co/datasets/gjata-legacy/ess-mai-executable-prior-art) |
+| POC007 source | [AIGovern-Cyber-POC007](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007) | Source authority; current documentation differs from the frozen release |
+| POC007 archive | [Software DOI 10.5281/zenodo.23596907](https://doi.org/10.5281/zenodo.23596907) | Frozen public bundle 0.1.2; [GitHub release](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007/releases/tag/poc007-public-v0.1.2) |
+| POC007 mirror | [Hugging Face artifact](https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-007-aigovern-cyber) | Mirror of the public reference, not an additional independent experiment |
+| POC007 preprint | [DOI 10.5281/zenodo.23597026](https://doi.org/10.5281/zenodo.23597026) | Separate manuscript, not peer reviewed; not an arXiv publication |
+| Public website | [Code, evidence and review](https://gjatalegacy-create.github.io/AIGovern-Cyber-POC007/) | Entry point for reproduction and the paper |
+| Community initiative | [Hugging Face Gjata Legacy](https://huggingface.co/gjata-legacy) | Public research community; organizational rules are forthcoming, no legal registration asserted |
+
+## Author-declared public channels
+
+[LinkedIn](https://www.linkedin.com/in/bledar-gjata-1a527030b/) · [Instagram](https://www.instagram.com/gjata_legacy/) · [Facebook GJATA](https://www.facebook.com/gjatalegacy/) · [YouTube](https://www.youtube.com/@GjataLegacy) · [X](https://x.com/Gjata_Legacy).
+
+These links are declared by the author in existing public profiles. Linking them is not independent identity verification or a claim that every platform account has been authenticated in this workflow. ORCID, the GitHub profile and the Hugging Face organization link the research artifacts; the social channels serve communication, not technical proof.
+
+## Review and discovery, with explicit status
+
+| Route | Status at this update | What it does not mean |
+|---|---|---|
+| [PREreview POC007](https://prereview.org/preprints/doi-10.5281-zenodo.23597026) | Review request published | Not a completed review |
+| [POC005 external feedback](https://github.com/gjatalegacy-create/ESS-MAI/discussions/13) | External technical feedback on public evidence and a described simplified model | Reviewer did not run the original Rust POC; not POC007 validation |
+| [HF POC003–006 review call](https://huggingface.co/datasets/gjata-legacy/ess-mai-executable-prior-art/discussions/1) | Public invitation, with separate capsule discussions | Not independent reproduction |
+| [Research Software Directory](https://research-software-directory.org/documentation/users/getting-access/) | ORCID access request sent to the published RSD contact | Not yet an approved account or software listing |
+| [OSOR / Interoperable Europe](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor) | Suitability enquiry sent for the appropriate technical/community channel | No public-sector deployment, EU adoption or catalogue acceptance claimed |
+| [JOSS](https://joss.theoj.org/about) | Pre-submission scope/readiness enquiry sent; not a paper submission | Six months of active public development and other gates remain required; acceptance is not established |
+| [OpenSSF Best Practices](https://www.bestpractices.dev/en) | Candidate route; registration/assessment not completed | The program is self-assessment, not an external security audit or certification |
+| [OpenAI Codex for Open Source](https://developers.openai.com/community/codex-for-oss) | Application material prepared; not submitted | Tool support is not OpenAI endorsement or promised human engineering review |
+| [OpenAI Developer Community](https://community.openai.com/c/community/21) | Focused technical post prepared; not published | Community discussion does not guarantee an OpenAI staff response |
+
+The earlier [review and preservation register](REVIEW_NETWORK.md) records Software Heritage snapshots, OpenAIRE observations, OpenAlex and Semantic Scholar enquiries, and the limitations of automated checks. Multiple mirrors and DOI metadata records are not counted as independent citations or reviews.
+
+## Working method and invitation
+
+Bledar Gjata directs the architectural design and reports inspecting code and execution through the shell. AI tools assisted implementation, tests and writing; see [WORKING_METHOD.md](WORKING_METHOD.md). Human direction, author-reported validation, automated tests and independent review are separate evidence categories.
+
+The public capsule is Apache-2.0; review is voluntary and commercial use follows that license. Further private development is disclosed as separate, not hidden behind the reproduction instructions. Reviewers are invited to identify failed obligations, unsupported claims, counterexamples and reproducibility gaps with exact versions and commands. No favorable review, citation or institutional endorsement is required or implied.
