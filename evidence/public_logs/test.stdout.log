@@ -1,0 +1,27 @@
+
+running 10 tests
+test tests::besa_rejects_dbab_case_drift ... ok
+test tests::fail_closed_case_yields_scoped_next_i0_question ... ok
+test tests::fixture_is_exactly_40_with_10_per_component ... ok
+test tests::missing_negative_blocks_even_when_positive_exists ... ok
+test tests::nbes_rejects_trace_break ... ok
+test tests::negative_superior_is_verified_advance_not_erasure ... ok
+test tests::positive_superior_retains_negative_critique ... ok
+test tests::scope_drift_fails_closed ... ok
+test tests::sha256_known_vector ... ok
+test tests::zero_noi_is_trigger_without_power ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 2 tests
+test obligation_is_not_positive_only ... ok
+test three_i0_end_to_end_contract ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

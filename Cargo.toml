@@ -1,0 +1,16 @@
+[package]
+name = "poc007-obligation-promise-law-to-success"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "ESS-MAI POC 007: Obligation Promise Law to Success"
+
+[lib]
+name = "poc007_opls"
+path = "src/lib.rs"
+
+[[bin]]
+name = "poc007-opls"
+path = "src/main.rs"
+
+[dependencies]

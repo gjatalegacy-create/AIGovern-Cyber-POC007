@@ -1,0 +1,36 @@
+{
+  "title": "AIGovern-Cyber POC007: Obligation Promise Law to Success - public reference capsule",
+  "upload_type": "software",
+  "version": "0.1.2",
+  "publication_date": "2026-10-23",
+  "creators": [
+    {
+      "name": "Gjata, Bledar",
+      "orcid": "0009-0003-7854-266X",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "A complete dependency-free historical Rust reference capsule derived from the ESS-MAI method. Twelve fresh tests and three fixture outcomes; explicit caller-trust and scope limitations. Includes an author-reported private R47 summary, separately labelled and not reproduced by this capsule. The full private AIGovern-Cyber runtime and operational histories are not distributed. A research draft is included; no arXiv acceptance or independent peer review is claimed.",
+  "license": "apache2.0",
+  "access_right": "open",
+  "keywords": [
+    "ESS-MAI",
+    "AIGovern-Cyber",
+    "POC007",
+    "governance-first",
+    "negative knowledge",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/gjatalegacy-create/ESS-MAI",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22750188",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

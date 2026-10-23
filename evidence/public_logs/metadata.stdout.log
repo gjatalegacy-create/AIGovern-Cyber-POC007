@@ -1,0 +1,95 @@
+{
+  "packages": [
+    {
+      "name": "poc007-obligation-promise-law-to-success",
+      "version": "0.1.0",
+      "id": "path+file:///<PUBLIC_POC_ROOT>#poc007-obligation-promise-law-to-success@0.1.0",
+      "license": "Apache-2.0",
+      "license_file": null,
+      "description": "ESS-MAI POC 007: Obligation Promise Law to Success",
+      "source": null,
+      "dependencies": [],
+      "targets": [
+        {
+          "kind": [
+            "lib"
+          ],
+          "crate_types": [
+            "lib"
+          ],
+          "name": "poc007_opls",
+          "src_path": "<PUBLIC_POC_ROOT>\\src\\lib.rs",
+          "edition": "2021",
+          "doc": true,
+          "doctest": true,
+          "test": true
+        },
+        {
+          "kind": [
+            "bin"
+          ],
+          "crate_types": [
+            "bin"
+          ],
+          "name": "poc007-opls",
+          "src_path": "<PUBLIC_POC_ROOT>\\src\\main.rs",
+          "edition": "2021",
+          "doc": true,
+          "doctest": false,
+          "test": true
+        },
+        {
+          "kind": [
+            "test"
+          ],
+          "crate_types": [
+            "bin"
+          ],
+          "name": "opls_integration",
+          "src_path": "<PUBLIC_POC_ROOT>\\tests\\opls_integration.rs",
+          "edition": "2021",
+          "doc": false,
+          "doctest": false,
+          "test": true
+        }
+      ],
+      "features": {},
+      "manifest_path": "<PUBLIC_POC_ROOT>\\Cargo.toml",
+      "metadata": null,
+      "publish": null,
+      "authors": [],
+      "categories": [],
+      "keywords": [],
+      "readme": null,
+      "repository": null,
+      "homepage": null,
+      "documentation": null,
+      "edition": "2021",
+      "links": null,
+      "default_run": null,
+      "rust_version": null
+    }
+  ],
+  "workspace_members": [
+    "path+file:///<PUBLIC_POC_ROOT>#poc007-obligation-promise-law-to-success@0.1.0"
+  ],
+  "workspace_default_members": [
+    "path+file:///<PUBLIC_POC_ROOT>#poc007-obligation-promise-law-to-success@0.1.0"
+  ],
+  "resolve": {
+    "nodes": [
+      {
+        "id": "path+file:///<PUBLIC_POC_ROOT>#poc007-obligation-promise-law-to-success@0.1.0",
+        "dependencies": [],
+        "deps": [],
+        "features": []
+      }
+    ],
+    "root": "path+file:///<PUBLIC_POC_ROOT>#poc007-obligation-promise-law-to-success@0.1.0"
+  },
+  "target_directory": "<CARGO_TARGET_DIR>",
+  "build_directory": "<CARGO_TARGET_DIR>",
+  "version": 1,
+  "workspace_root": "<PUBLIC_POC_ROOT>",
+  "metadata": null
+}

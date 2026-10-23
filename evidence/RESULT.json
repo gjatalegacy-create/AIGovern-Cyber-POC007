@@ -1,0 +1,341 @@
+{
+  "schema": "R48_PUBLIC_POC007_VALIDATION_V1",
+  "status": "PASS",
+  "failure": null,
+  "commands": [
+    {
+      "label": "rustc-version",
+      "command": [
+        "rustc",
+        "--version",
+        "--verbose"
+      ],
+      "cwd": "<PUBLIC_POC_ROOT>",
+      "exit_code": 0,
+      "seconds": 0.062,
+      "stdout_sha256": "7da7a231f6da285af31227bd8500ec901066365cf40b12c014e944437758e5a2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_original_sha256": "7da7a231f6da285af31227bd8500ec901066365cf40b12c014e944437758e5a2",
+      "stdout_published_path": "public_logs/rustc-version.stdout.log",
+      "stderr_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_published_path": "public_logs/rustc-version.stderr.log"
+    },
+    {
+      "label": "cargo-version",
+      "command": [
+        "cargo",
+        "--version",
+        "--verbose"
+      ],
+      "cwd": "<PUBLIC_POC_ROOT>",
+      "exit_code": 0,
+      "seconds": 0.047,
+      "stdout_sha256": "f6ec3aa05f10cb600e9f5d8426919510772d5e76504bd405e49470ae23729e1c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_original_sha256": "f6ec3aa05f10cb600e9f5d8426919510772d5e76504bd405e49470ae23729e1c",
+      "stdout_published_path": "public_logs/cargo-version.stdout.log",
+      "stderr_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_published_path": "public_logs/cargo-version.stderr.log"
+    },
+    {
+      "label": "metadata",
+      "command": [
+        "cargo",
+        "metadata",
+        "--format-version",
+        "1",
+        "--locked",
+        "--offline"
+      ],
+      "cwd": "<PUBLIC_POC_ROOT>",
+      "exit_code": 0,
+      "seconds": 0.109,
+      "stdout_sha256": "4afbf0f7cdf7509ed2c05ea654b470e4e23d35bf090c9db905e50b4407263fc4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_original_sha256": "d0bc4077d8939823c8c2c57ab3c5d2748bd0c47f4a04fd627ef9ccc9bc8274d3",
+      "stdout_published_path": "public_logs/metadata.stdout.log",
+      "stderr_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_published_path": "public_logs/metadata.stderr.log"
+    },
+    {
+      "label": "test",
+      "command": [
+        "cargo",
+        "test",
+        "--workspace",
+        "--all-targets",
+        "--locked",
+        "--offline",
+        "--no-fail-fast",
+        "--",
+        "--test-threads=1"
+      ],
+      "cwd": "<PUBLIC_POC_ROOT>",
+      "exit_code": 0,
+      "seconds": 3.546,
+      "stdout_sha256": "442bb370c8b1fad711e811e42e83b72de06027f5b6b01f20ce1dce40413e8582",
+      "stderr_sha256": "20d60e9a98f27df8a7a6cfde15f30a09637732635fb34c3c527b996e816e5062",
+      "stdout_original_sha256": "442bb370c8b1fad711e811e42e83b72de06027f5b6b01f20ce1dce40413e8582",
+      "stdout_published_path": "public_logs/test.stdout.log",
+      "stderr_original_sha256": "aa0685b25794648766f39f4582168d3bfb70e4da1bc08df07bff2dcdf3fd3e5c",
+      "stderr_published_path": "public_logs/test.stderr.log"
+    },
+    {
+      "label": "doc-test",
+      "command": [
+        "cargo",
+        "test",
+        "--doc",
+        "--locked",
+        "--offline"
+      ],
+      "cwd": "<PUBLIC_POC_ROOT>",
+      "exit_code": 0,
+      "seconds": 0.172,
+      "stdout_sha256": "df166913f47ff1f04202cae9b31df67ed272d692d99a0023a8117dc3029100dd",
+      "stderr_sha256": "48c4647c358b5b5f8362b033c3ce9bb0e9be12c602ae61a895df30bb41cfb979",
+      "stdout_original_sha256": "df166913f47ff1f04202cae9b31df67ed272d692d99a0023a8117dc3029100dd",
+      "stdout_published_path": "public_logs/doc-test.stdout.log",
+      "stderr_original_sha256": "48c4647c358b5b5f8362b033c3ce9bb0e9be12c602ae61a895df30bb41cfb979",
+      "stderr_published_path": "public_logs/doc-test.stderr.log"
+    },
+    {
+      "label": "release-build",
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--workspace",
+        "--all-targets",
+        "--locked",
+        "--offline"
+      ],
+      "cwd": "<PUBLIC_POC_ROOT>",
+      "exit_code": 0,
+      "seconds": 1.671,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "5ff180afed7e2505aaf3a7a87008cb456cf711213881cd3397a9b14f62457a2e",
+      "stdout_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_published_path": "public_logs/release-build.stdout.log",
+      "stderr_original_sha256": "fe84b8141f4376d8e0d1a74eab8d851b0135cc3e0ef350aa617cf63684159e4b",
+      "stderr_published_path": "public_logs/release-build.stderr.log"
+    },
+    {
+      "label": "run",
+      "command": [
+        "cargo",
+        "run",
+        "--release",
+        "--locked",
+        "--offline",
+        "--bin",
+        "poc007-opls"
+      ],
+      "cwd": "<PUBLIC_POC_ROOT>",
+      "exit_code": 0,
+      "seconds": 0.156,
+      "stdout_sha256": "4b2c1f8b4c8d40ecc94bbd2e5d188cec0e9a57829e8cee30dc54b7ccca272ed9",
+      "stderr_sha256": "76a953eb8422c3587d595e1c7ffb3f3d60b4ba2de052fedc9a104d4e8055cde3",
+      "stdout_original_sha256": "4b2c1f8b4c8d40ecc94bbd2e5d188cec0e9a57829e8cee30dc54b7ccca272ed9",
+      "stdout_published_path": "public_logs/run.stdout.log",
+      "stderr_original_sha256": "66061085a7a7fb07e5fcdd5d669d3472e13905fb1176ef2e7d24d2cc0b631880",
+      "stderr_published_path": "public_logs/run.stderr.log"
+    },
+    {
+      "label": "python-oracle",
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "<PYTHON_ORACLE_ROOT>\\scripts\\reference_oracle.py"
+      ],
+      "cwd": "<PYTHON_ORACLE_ROOT>",
+      "exit_code": 0,
+      "seconds": 0.094,
+      "stdout_sha256": "58b6c89891f620f5dc7699788b243168c58a2c07e7a0b7e34fab8ffbec21c041",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_original_sha256": "58b6c89891f620f5dc7699788b243168c58a2c07e7a0b7e34fab8ffbec21c041",
+      "stdout_published_path": "public_logs/python-oracle.stdout.log",
+      "stderr_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_published_path": "public_logs/python-oracle.stderr.log"
+    },
+    {
+      "label": "python-static",
+      "command": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "<PYTHON_ORACLE_ROOT>\\scripts\\static_sanity.py"
+      ],
+      "cwd": "<PYTHON_ORACLE_ROOT>",
+      "exit_code": 0,
+      "seconds": 0.109,
+      "stdout_sha256": "91fa53ff4d7fa8260b0e2442cd9b1dbc44cf6e020671f5bf4c0c6274f9853944",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_original_sha256": "91fa53ff4d7fa8260b0e2442cd9b1dbc44cf6e020671f5bf4c0c6274f9853944",
+      "stdout_published_path": "public_logs/python-static.stdout.log",
+      "stderr_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_published_path": "public_logs/python-static.stderr.log"
+    }
+  ],
+  "checks": [
+    {
+      "name": "commands all passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "single package no dependencies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no source or license bytes changed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "12 original Rust tests passed without ignored tests",
+      "passed": true,
+      "detail": [
+        [
+          "10",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "2",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "name": "three original bounded Rust outcomes",
+      "passed": true,
+      "detail": [
+        [
+          "I0-A-FAIL-CLOSED",
+          "FAIL_CLOSED",
+          "true"
+        ],
+        [
+          "I0-B-NEGATIVE-SUPERIOR",
+          "RIGOROUS_NEGATIVE",
+          "true"
+        ],
+        [
+          "I0-C-POSITIVE-SUPERIOR",
+          "CONSTRUCTIVE",
+          "true"
+        ]
+      ]
+    },
+    {
+      "name": "Python oracle outcome classes agree with Rust",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Python falsifier controls passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no warnings",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "Original single-process historical POC007 capsule only; no R47 results, no private native authority/WAL/hardware properties.",
+  "source_before_after": [
+    {
+      "path": "Cargo.toml",
+      "bytes": 300,
+      "source_sha256": "3ee7c9f1af67e6ad1440401a350269c6d30212a47bbbc697ead05c5e2e67c186",
+      "copy_sha256": "3ee7c9f1af67e6ad1440401a350269c6d30212a47bbbc697ead05c5e2e67c186",
+      "source": "<HISTORICAL_POC_ROOT>\\Cargo.toml"
+    },
+    {
+      "path": "Cargo.lock",
+      "bytes": 184,
+      "source_sha256": "06b4cfd9418843f45d33736feb092b31f19fd5dd99c621b166cf0a4014895591",
+      "copy_sha256": "06b4cfd9418843f45d33736feb092b31f19fd5dd99c621b166cf0a4014895591",
+      "source": "<HISTORICAL_POC_ROOT>\\Cargo.lock"
+    },
+    {
+      "path": "src/lib.rs",
+      "bytes": 23396,
+      "source_sha256": "2553dba1230c54b56dd62153c5d8be8fbe3a1cbaabc6e24d0342d69168960f29",
+      "copy_sha256": "2553dba1230c54b56dd62153c5d8be8fbe3a1cbaabc6e24d0342d69168960f29",
+      "source": "<HISTORICAL_POC_ROOT>\\src\\lib.rs"
+    },
+    {
+      "path": "src/main.rs",
+      "bytes": 893,
+      "source_sha256": "06313158622c9a25cdd3aab3f4bd1f49a477128ab9b5306405492258c104c7b1",
+      "copy_sha256": "06313158622c9a25cdd3aab3f4bd1f49a477128ab9b5306405492258c104c7b1",
+      "source": "<HISTORICAL_POC_ROOT>\\src\\main.rs"
+    },
+    {
+      "path": "tests/opls_integration.rs",
+      "bytes": 929,
+      "source_sha256": "1cbf0b01636bbc1641e363c346c0a456dc131ff42a33984dcddbe13d90420bab",
+      "copy_sha256": "1cbf0b01636bbc1641e363c346c0a456dc131ff42a33984dcddbe13d90420bab",
+      "source": "<HISTORICAL_POC_ROOT>\\tests\\opls_integration.rs"
+    },
+    {
+      "path": "fixtures/i0_cases.json",
+      "bytes": 734,
+      "source_sha256": "b10c34ef349c79acb57de9ed43e4d100fd7076ea6384ff206c901bae8c879c02",
+      "copy_sha256": "b10c34ef349c79acb57de9ed43e4d100fd7076ea6384ff206c901bae8c879c02",
+      "source": "<HISTORICAL_POC_ROOT>\\fixtures\\i0_cases.json"
+    },
+    {
+      "path": "fixtures/vault_40_candidates.json",
+      "bytes": 8238,
+      "source_sha256": "7642984ddd5ffb03f88a19d4fbf0043a233c81efbcda17d52e9e3820389df6e1",
+      "copy_sha256": "7642984ddd5ffb03f88a19d4fbf0043a233c81efbcda17d52e9e3820389df6e1",
+      "source": "<HISTORICAL_POC_ROOT>\\fixtures\\vault_40_candidates.json"
+    },
+    {
+      "path": "scripts/reference_oracle.py",
+      "bytes": 5354,
+      "source_sha256": "782df1c6338a6b0de517ba8c75262c92a8ae34d11b8ede08a18104566b147250",
+      "copy_sha256": "782df1c6338a6b0de517ba8c75262c92a8ae34d11b8ede08a18104566b147250",
+      "source": "<HISTORICAL_POC_ROOT>\\scripts\\reference_oracle.py"
+    },
+    {
+      "path": "scripts/static_sanity.py",
+      "bytes": 429,
+      "source_sha256": "ca5188951badb608ef7de4e6b1851c5c957e93a7b79edd71214a6187ea1f9fea",
+      "copy_sha256": "ca5188951badb608ef7de4e6b1851c5c957e93a7b79edd71214a6187ea1f9fea",
+      "source": "<HISTORICAL_POC_ROOT>\\scripts\\static_sanity.py"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10863,
+      "source_sha256": "594faf0dcfcdf912d4c8f9bbd56c04e173ff13d8cc46e5c47eec146cf0316f1d",
+      "copy_sha256": "594faf0dcfcdf912d4c8f9bbd56c04e173ff13d8cc46e5c47eec146cf0316f1d",
+      "source": "<LICENSE_ORIGIN>\\LICENSE"
+    }
+  ],
+  "environment": {
+    "CARGO_TARGET_DIR": "<CARGO_TARGET_DIR>",
+    "RUSTFLAGS": "-Dwarnings",
+    "CARGO_NET_OFFLINE": "true"
+  },
+  "publication": {
+    "original_result_sha256": "eb1c109ec545bb3121c88c3ad6effa94776881fff0275fc00dad611fe345e251",
+    "scope": "PUBLIC_POC007_ONLY",
+    "sanitization": "local paths replaced; command results and source hashes retained; log hash fields refer to published copies; original hashes retained separately",
+    "transformation_register": "TRANSFORMATIONS.json"
+  }
+}

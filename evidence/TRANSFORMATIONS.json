@@ -1,0 +1,201 @@
+{
+  "schema": "POC007_PUBLIC_TRANSFORMATIONS_V1",
+  "reason": "Sanitize local paths in public-package logs; disclose a separate authorized private-runtime aggregate receipt without private source or histories.",
+  "placeholder_meanings": {
+    "<PUBLIC_POC_ROOT>": "standalone package directory",
+    "<PYTHON_ORACLE_ROOT>": "byte-exact temporary package copy used by Python",
+    "<CARGO_TARGET_DIR>": "external build output directory",
+    "<HISTORICAL_POC_ROOT>": "retained historical capsule",
+    "<LICENSE_ORIGIN>": "existing local ESS-MAI public release license directory",
+    "<LOCAL_VALIDATION_ROOT>": "local R48 validation workspace",
+    "<HOME>": "local account home"
+  },
+  "entries": [
+    {
+      "source_id": "R48_LOCAL_VALIDATION/rustc-version.stdout.log",
+      "published_path": "evidence/public_logs/rustc-version.stdout.log",
+      "original_sha256": "7da7a231f6da285af31227bd8500ec901066365cf40b12c014e944437758e5a2",
+      "published_sha256": "7da7a231f6da285af31227bd8500ec901066365cf40b12c014e944437758e5a2",
+      "original_bytes": 193,
+      "published_bytes": 193,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/rustc-version.stderr.log",
+      "published_path": "evidence/public_logs/rustc-version.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "published_bytes": 0,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/cargo-version.stdout.log",
+      "published_path": "evidence/public_logs/cargo-version.stdout.log",
+      "original_sha256": "f6ec3aa05f10cb600e9f5d8426919510772d5e76504bd405e49470ae23729e1c",
+      "published_sha256": "f6ec3aa05f10cb600e9f5d8426919510772d5e76504bd405e49470ae23729e1c",
+      "original_bytes": 311,
+      "published_bytes": 311,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/cargo-version.stderr.log",
+      "published_path": "evidence/public_logs/cargo-version.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "published_bytes": 0,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/metadata.stdout.log",
+      "published_path": "evidence/public_logs/metadata.stdout.log",
+      "original_sha256": "d0bc4077d8939823c8c2c57ab3c5d2748bd0c47f4a04fd627ef9ccc9bc8274d3",
+      "published_sha256": "4afbf0f7cdf7509ed2c05ea654b470e4e23d35bf090c9db905e50b4407263fc4",
+      "original_bytes": 2503,
+      "published_bytes": 2519,
+      "method": "parse JSON, replace local path prefixes with placeholders, UTF-8 pretty-print with LF"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/metadata.stderr.log",
+      "published_path": "evidence/public_logs/metadata.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "published_bytes": 0,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/test.stdout.log",
+      "published_path": "evidence/public_logs/test.stdout.log",
+      "original_sha256": "442bb370c8b1fad711e811e42e83b72de06027f5b6b01f20ce1dce40413e8582",
+      "published_sha256": "442bb370c8b1fad711e811e42e83b72de06027f5b6b01f20ce1dce40413e8582",
+      "original_bytes": 985,
+      "published_bytes": 985,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/test.stderr.log",
+      "published_path": "evidence/public_logs/test.stderr.log",
+      "original_sha256": "aa0685b25794648766f39f4582168d3bfb70e4da1bc08df07bff2dcdf3fd3e5c",
+      "published_sha256": "20d60e9a98f27df8a7a6cfde15f30a09637732635fb34c3c527b996e816e5062",
+      "original_bytes": 687,
+      "published_bytes": 462,
+      "method": "UTF-8 text, replace local path prefixes with placeholders; preserve other bytes"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/doc-test.stdout.log",
+      "published_path": "evidence/public_logs/doc-test.stdout.log",
+      "original_sha256": "df166913f47ff1f04202cae9b31df67ed272d692d99a0023a8117dc3029100dd",
+      "published_sha256": "df166913f47ff1f04202cae9b31df67ed272d692d99a0023a8117dc3029100dd",
+      "original_bytes": 113,
+      "published_bytes": 113,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/doc-test.stderr.log",
+      "published_path": "evidence/public_logs/doc-test.stderr.log",
+      "original_sha256": "48c4647c358b5b5f8362b033c3ce9bb0e9be12c602ae61a895df30bb41cfb979",
+      "published_sha256": "48c4647c358b5b5f8362b033c3ce9bb0e9be12c602ae61a895df30bb41cfb979",
+      "original_bytes": 98,
+      "published_bytes": 98,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/release-build.stdout.log",
+      "published_path": "evidence/public_logs/release-build.stdout.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "published_bytes": 0,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/release-build.stderr.log",
+      "published_path": "evidence/public_logs/release-build.stderr.log",
+      "original_sha256": "fe84b8141f4376d8e0d1a74eab8d851b0135cc3e0ef350aa617cf63684159e4b",
+      "published_sha256": "5ff180afed7e2505aaf3a7a87008cb456cf711213881cd3397a9b14f62457a2e",
+      "original_bytes": 206,
+      "published_bytes": 143,
+      "method": "UTF-8 text, replace local path prefixes with placeholders; preserve other bytes"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/run.stdout.log",
+      "published_path": "evidence/public_logs/run.stdout.log",
+      "original_sha256": "4b2c1f8b4c8d40ecc94bbd2e5d188cec0e9a57829e8cee30dc54b7ccca272ed9",
+      "published_sha256": "4b2c1f8b4c8d40ecc94bbd2e5d188cec0e9a57829e8cee30dc54b7ccca272ed9",
+      "original_bytes": 2247,
+      "published_bytes": 2247,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/run.stderr.log",
+      "published_path": "evidence/public_logs/run.stderr.log",
+      "original_sha256": "66061085a7a7fb07e5fcdd5d669d3472e13905fb1176ef2e7d24d2cc0b631880",
+      "published_sha256": "76a953eb8422c3587d595e1c7ffb3f3d60b4ba2de052fedc9a104d4e8055cde3",
+      "original_bytes": 174,
+      "published_bytes": 120,
+      "method": "UTF-8 text, replace local path prefixes with placeholders; preserve other bytes"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/python-oracle.stdout.log",
+      "published_path": "evidence/public_logs/python-oracle.stdout.log",
+      "original_sha256": "58b6c89891f620f5dc7699788b243168c58a2c07e7a0b7e34fab8ffbec21c041",
+      "published_sha256": "58b6c89891f620f5dc7699788b243168c58a2c07e7a0b7e34fab8ffbec21c041",
+      "original_bytes": 5271,
+      "published_bytes": 5271,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/python-oracle.stderr.log",
+      "published_path": "evidence/public_logs/python-oracle.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "published_bytes": 0,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/python-static.stdout.log",
+      "published_path": "evidence/public_logs/python-static.stdout.log",
+      "original_sha256": "91fa53ff4d7fa8260b0e2442cd9b1dbc44cf6e020671f5bf4c0c6274f9853944",
+      "published_sha256": "91fa53ff4d7fa8260b0e2442cd9b1dbc44cf6e020671f5bf4c0c6274f9853944",
+      "original_bytes": 20,
+      "published_bytes": 20,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/python-static.stderr.log",
+      "published_path": "evidence/public_logs/python-static.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "published_bytes": 0,
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "R48_LOCAL_VALIDATION/RESULT.json",
+      "published_path": "evidence/RESULT.json",
+      "original_sha256": "eb1c109ec545bb3121c88c3ad6effa94776881fff0275fc00dad611fe345e251",
+      "published_sha256": "7576f4910a6399b60ac2c33f34d4250f47947432afb2d272e04aa733d7a439b6",
+      "method": "recursive local path replacement; published log hash fields updated with original hashes retained; publication metadata added; UTF-8 JSON"
+    },
+    {
+      "source_id": "R48_LOCAL_PYTHON_ORACLE_RESULT",
+      "published_path": "evidence/reference_oracle_results.json",
+      "original_sha256": "4dbdadb080bda4d6f2596f86874d112a9d00083d8f619cd265f5beb68022069b",
+      "published_sha256": "4dbdadb080bda4d6f2596f86874d112a9d00083d8f619cd265f5beb68022069b",
+      "method": "byte-exact copy"
+    },
+    {
+      "source_id": "PRIVATE_RUNTIME_R47_AUTHORIZED_AGGREGATE/FINAL.json",
+      "published_path": "evidence/private_R47_FINAL.json",
+      "original_sha256": "f183c718baf6c9d4c222d5f45639f51c5af1febbeaaa9ed349ecbecd9e823fe3",
+      "published_sha256": "f183c718baf6c9d4c222d5f45639f51c5af1febbeaaa9ed349ecbecd9e823fe3",
+      "original_bytes": 1410,
+      "published_bytes": 1410,
+      "method": "byte-exact authorized aggregate receipt; private source, operational histories and raw logs excluded",
+      "evidence_status": "INTERNAL_AUTHOR_REPORTED"
+    }
+  ]
+}

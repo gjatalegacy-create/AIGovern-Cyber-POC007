@@ -1,0 +1,29 @@
+{
+  "schema": "ess-mai.poc007.i0.v1",
+  "cases": [
+    {
+      "id": "I0-A-FAIL-CLOSED",
+      "xi_term": "x11",
+      "yi_term": "y02",
+      "scope": "scope-alpha",
+      "question": "Find exact x11/y02 with both polarities",
+      "expected": "FAIL_CLOSED"
+    },
+    {
+      "id": "I0-B-NEGATIVE-SUPERIOR",
+      "xi_term": "x03",
+      "yi_term": "y03",
+      "scope": "scope-alpha",
+      "question": "Evaluate x03/y03 with exact negative critique",
+      "expected": "RIGOROUS_NEGATIVE"
+    },
+    {
+      "id": "I0-C-POSITIVE-SUPERIOR",
+      "xi_term": "x07",
+      "yi_term": "y07",
+      "scope": "scope-alpha",
+      "question": "Evaluate x07/y07 with exact negative critique",
+      "expected": "CONSTRUCTIVE"
+    }
+  ]
+}

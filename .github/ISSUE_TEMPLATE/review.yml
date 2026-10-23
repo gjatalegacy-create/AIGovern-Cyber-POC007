@@ -1,0 +1,32 @@
+name: POC007 reproduction or counterexample
+description: Report an independently tested result, failed assumption or limitation.
+title: '[POC007 review] '
+body:
+  - type: input
+    id: revision
+    attributes:
+      label: Commit and artifact hash
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and exact commands
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Expected result, actual result, logs and exit codes
+    validations:
+      required: true
+  - type: textarea
+    id: interpretation
+    attributes:
+      label: Claim tested and interpretation
+      description: Distinguish execution, source reading and hypotheses. Negative findings are welcome.
+  - type: textarea
+    id: context
+    attributes:
+      label: Review context
+      description: State whether you independently ran it, and disclose relevant relationships or AI assistance. No affiliation is required.

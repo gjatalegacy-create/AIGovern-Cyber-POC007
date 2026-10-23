@@ -1,0 +1,140 @@
+{
+  "schema": "POC007_SOURCE_PROVENANCE_V1",
+  "publication_bundle_version": "0.1.2",
+  "historical_capsule_label": "poc-007-obligation-promise-law-to-success-v0.1.1",
+  "cargo_code_version": "0.1.0",
+  "behavior_changes": false,
+  "author": {
+    "name": "Bledar Gjata",
+    "organization": "Gjata Legacy",
+    "orcid": "https://orcid.org/0009-0003-7854-266X"
+  },
+  "canonical_repository": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007",
+  "mirror": "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-007-aigovern-cyber",
+  "source_files": [
+    {
+      "path": "Cargo.toml",
+      "bytes": 300,
+      "sha256": "3ee7c9f1af67e6ad1440401a350269c6d30212a47bbbc697ead05c5e2e67c186",
+      "origin_id": "POC007_HISTORICAL_V0.1.1/Cargo.toml",
+      "copy_policy": "byte-exact"
+    },
+    {
+      "path": "Cargo.lock",
+      "bytes": 184,
+      "sha256": "06b4cfd9418843f45d33736feb092b31f19fd5dd99c621b166cf0a4014895591",
+      "origin_id": "POC007_HISTORICAL_V0.1.1/Cargo.lock",
+      "copy_policy": "byte-exact"
+    },
+    {
+      "path": "src/lib.rs",
+      "bytes": 23396,
+      "sha256": "2553dba1230c54b56dd62153c5d8be8fbe3a1cbaabc6e24d0342d69168960f29",
+      "origin_id": "POC007_HISTORICAL_V0.1.1/src/lib.rs",
+      "copy_policy": "byte-exact"
+    },
+    {
+      "path": "src/main.rs",
+      "bytes": 893,
+      "sha256": "06313158622c9a25cdd3aab3f4bd1f49a477128ab9b5306405492258c104c7b1",
+      "origin_id": "POC007_HISTORICAL_V0.1.1/src/main.rs",
+      "copy_policy": "byte-exact"
+    },
+    {
+      "path": "tests/opls_integration.rs",
+      "bytes": 929,
+      "sha256": "1cbf0b01636bbc1641e363c346c0a456dc131ff42a33984dcddbe13d90420bab",
+      "origin_id": "POC007_HISTORICAL_V0.1.1/tests/opls_integration.rs",
+      "copy_policy": "byte-exact"
+    },
+    {
+      "path": "fixtures/i0_cases.json",
+      "bytes": 734,
+      "sha256": "b10c34ef349c79acb57de9ed43e4d100fd7076ea6384ff206c901bae8c879c02",
+      "origin_id": "POC007_HISTORICAL_V0.1.1/fixtures/i0_cases.json",
+      "copy_policy": "byte-exact"
+    },
+    {
+      "path": "fixtures/vault_40_candidates.json",
+      "bytes": 8238,
+      "sha256": "7642984ddd5ffb03f88a19d4fbf0043a233c81efbcda17d52e9e3820389df6e1",
+      "origin_id": "POC007_HISTORICAL_V0.1.1/fixtures/vault_40_candidates.json",
+      "copy_policy": "byte-exact"
+    },
+    {
+      "path": "scripts/reference_oracle.py",
+      "bytes": 5354,
+      "sha256": "782df1c6338a6b0de517ba8c75262c92a8ae34d11b8ede08a18104566b147250",
+      "origin_id": "POC007_HISTORICAL_V0.1.1/scripts/reference_oracle.py",
+      "copy_policy": "byte-exact"
+    },
+    {
+      "path": "scripts/static_sanity.py",
+      "bytes": 429,
+      "sha256": "ca5188951badb608ef7de4e6b1851c5c957e93a7b79edd71214a6187ea1f9fea",
+      "origin_id": "POC007_HISTORICAL_V0.1.1/scripts/static_sanity.py",
+      "copy_policy": "byte-exact"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10863,
+      "sha256": "594faf0dcfcdf912d4c8f9bbd56c04e173ff13d8cc46e5c47eec146cf0316f1d",
+      "origin_id": "ESS-MAI_PUBLIC_APACHE_LICENSE/publications/executable-prior-art/LICENSE",
+      "copy_policy": "byte-exact"
+    }
+  ],
+  "method_anchors": [
+    {
+      "path": "src/lib.rs",
+      "lines": "78-91",
+      "role": "zero-authority collision obligation"
+    },
+    {
+      "path": "src/lib.rs",
+      "lines": "108-174",
+      "role": "POC DBAB witness and BESA promise"
+    },
+    {
+      "path": "src/lib.rs",
+      "lines": "194-256",
+      "role": "exact scoped pairing and fixture-only mass comparison"
+    },
+    {
+      "path": "src/lib.rs",
+      "lines": "269-359",
+      "role": "caller-trusted NBES/Shadow-style reference model"
+    },
+    {
+      "path": "src/lib.rs",
+      "lines": "371-401",
+      "role": "ordered run and synthetic fixtures"
+    }
+  ],
+  "new_publication_documents": [
+    "README.md",
+    "KNOWN_LIMITATIONS.md",
+    "PUBLIC_PRIVATE_BOUNDARY.md",
+    "REPRODUCIBILITY.md",
+    "REVIEW_PROTOCOL.md",
+    "NOTICE.md",
+    "CITATION.cff",
+    "SOURCE_PROVENANCE.json",
+    "PRIVATE_RUNTIME_EVIDENCE.md"
+  ],
+  "evidence_register": "evidence/TRANSFORMATIONS.json",
+  "public_validation": {
+    "tests_passed": 12,
+    "tests_failed": 0,
+    "tests_ignored": 0,
+    "doctests": 0,
+    "original_result_sha256": "eb1c109ec545bb3121c88c3ad6effa94776881fff0275fc00dad611fe345e251",
+    "published_result_sha256": "7576f4910a6399b60ac2c33f34d4250f47947432afb2d272e04aa733d7a439b6"
+  },
+  "scope": "Historical standalone reference implementation, not current private runtime or full canonical-method closure. No new DOI.",
+  "separate_private_runtime_summary": {
+    "path": "evidence/private_R47_FINAL.json",
+    "sha256": "f183c718baf6c9d4c222d5f45639f51c5af1febbeaaa9ed349ecbecd9e823fe3",
+    "status": "INTERNAL_AUTHOR_REPORTED",
+    "scope": "Authorized aggregate receipt only; distinct from this package's twelve tests. No private runtime source, state, operational histories or complete evidence corpus."
+  }
+}

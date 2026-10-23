@@ -1,0 +1,28 @@
+POC007 OPLS | vault_candidates=40
+CASE=I0-A-FAIL-CLOSED OUTCOME=FAIL_CLOSED VERIFIED=true
+  LIGHT=d84c6b9cb36ec96141843425f8bbd20a0fd2f70daa68db936feb94ede381e460
+  ASHT=6bd2a308e266a87fdaf2a24a898022cd14aadc538e71e82bf36091876f93fa6d
+  NBES=NOT_REACHED
+  SHADOW=20634d57844223a6f7b5e566c1fa8453cd307d13512cd54f2be00df301c3853b
+  REASON=verified fail-closed: request-bound relevance found no exact positive candidate for Xi=x11
+  iZ.achieved=request/obligation/promise trace preserved; no fabricated candidate
+  iZ.critique=request-bound relevance found no exact positive candidate for Xi=x11
+  next_i0=Which exact additional evidence in scope 'scope-alpha' supplies the missing request-bound Xi/Yi positive+negative pair for case 'I0-A-FAIL-CLOSED' so a new i0 can lawfully continue?
+CASE=I0-B-NEGATIVE-SUPERIOR OUTCOME=RIGOROUS_NEGATIVE VERIFIED=true
+  LIGHT=bd1ee6e4caf3b11c8c6d9fb12842610783594e9708af949522d4b7d94b7a7e9c
+  ASHT=1a16e840a35a29ea73b98185d85d3445366714f081b1576c3c0f84d28296ed4f
+  NBES=ad628578e2592c46da2b1f013042edb50bb35de09c95237b153640a98ecd7609
+  SHADOW=d0e9c043723a3cc5c43bec5f65e83d4ed1b996c9553607df1fbe9109bd4646d4
+  REASON=verified rigorous-negative advance; negative critique remains living knowledge
+  iZ.achieved=positive support mass=590 retained as context
+  iZ.critique=negative mass=910 is superior and must guide next advancement
+  next_i0=What new evidence can answer the verified negative critique for case 'I0-B-NEGATIVE-SUPERIOR' without changing scope 'scope-alpha' silently?
+CASE=I0-C-POSITIVE-SUPERIOR OUTCOME=CONSTRUCTIVE VERIFIED=true
+  LIGHT=cad2da703e9f6438c71c04bec10f6f88f5d7084595be93b1f71404bd47eba445
+  ASHT=19976ad3b6718ea62f4409f8418e727674f5d0ffaa2bcefd13855ebb20baccb7
+  NBES=a2a087eba77ff8292bf1564c63ea1d6060305e67bdfb5056036a680096084481
+  SHADOW=1708894350b9934394c551974af9f30f2e893d4235b03bcf99c90374d6a1fe7f
+  REASON=verified constructive advance; relevant negative critique is retained rather than erased
+  iZ.achieved=constructive support mass=940 > negative mass=320
+  iZ.critique=negative critique mass=320 retained as advancement boundary
+  next_i0=What additional indicia would stress-test the constructive result for case 'I0-C-POSITIVE-SUPERIOR' inside scope 'scope-alpha'?

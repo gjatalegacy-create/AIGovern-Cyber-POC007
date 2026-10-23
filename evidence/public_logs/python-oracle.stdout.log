@@ -1,0 +1,121 @@
+{
+  "schema": "ess-mai.poc007.oracle-results.v1",
+  "fixture_candidates": 40,
+  "results": [
+    {
+      "case_id": "I0-A-FAIL-CLOSED",
+      "outcome": "FAIL_CLOSED",
+      "verified": true,
+      "positive_mass_milli": 0,
+      "negative_mass_milli": 0,
+      "light_trace": "69d900f670b6b1c967659c8e9904942ceefc155ac24c6fcf78fb0e153dfef64c",
+      "asht_trace": "2dde9dd6f20d4f37b08352eb29d2f6d3699adf8f45c5a56428d66ea3e9447ec8",
+      "nbes_claim": null,
+      "shadow_receipt": "b14d4b218c41f148969a1e73cda29a61605d017b23352d478f99268233d354a5",
+      "reason": "no exact positive Xi=x11; no exact negative -Xi=x11",
+      "iZ": {
+        "achieved": "request/obligation/promise trace preserved; no fabricated candidate",
+        "critique": "no exact positive Xi=x11; no exact negative -Xi=x11",
+        "next_i0_question": "Which exact additional evidence in scope 'scope-alpha' supplies the missing request-bound Xi/Yi positive+negative pair for case 'I0-A-FAIL-CLOSED' so a new i0 can lawfully continue?"
+      },
+      "zero_noi": {
+        "state": 0,
+        "knowledge_creation": 0,
+        "verdict": 0,
+        "authority": 0,
+        "persistence": 0,
+        "trigger": 1
+      },
+      "collision_obligation": {
+        "case_id": "I0-A-FAIL-CLOSED",
+        "scope": "scope-alpha",
+        "xi_term": "x11",
+        "yi_term": "y02",
+        "require_exact_positive": true,
+        "require_exact_negative": true,
+        "same_case_required": true,
+        "same_scope_required": true
+      },
+      "dbab_law_digest": "b4ef388e180fb37fe9bbe3a4abd1cf1f5546668010dc13ec2ac87cda1c3bfa40",
+      "besa_promise_digest": "9d780cf108b448d513724d1b62d43ec1d27f146041a08386bc1b0eab1cc2f6f4"
+    },
+    {
+      "case_id": "I0-B-NEGATIVE-SUPERIOR",
+      "outcome": "RIGOROUS_NEGATIVE",
+      "verified": true,
+      "positive_mass_milli": 590,
+      "negative_mass_milli": 910,
+      "light_trace": "317bfc7428ca45f22a60236d6b1223eaec2d65c7723c79809815f766e550d667",
+      "asht_trace": "e5c5490a07ef850dd4808d14d651d80ec2f8a931ff87e1bcf11673f39ce7c32a",
+      "nbes_claim": "d3d3196ccfc8ba9d054e739d041aa85bf80c47b322bc14e1f13d2dabbd36ba7a",
+      "shadow_receipt": "3d695f1a637c3c6e27a6fd1d66dd821760cd5e1f30634ca507980367ade014de",
+      "reason": "exact pair collision completed: +mass=590 -mass=910 => RIGOROUS_NEGATIVE",
+      "iZ": {
+        "achieved": "positive support mass=590 retained as context",
+        "critique": "negative mass=910 is superior and must guide next advancement",
+        "next_i0_question": "What new evidence can answer the verified negative critique for case 'I0-B-NEGATIVE-SUPERIOR' without changing scope 'scope-alpha' silently?"
+      },
+      "zero_noi": {
+        "state": 0,
+        "knowledge_creation": 0,
+        "verdict": 0,
+        "authority": 0,
+        "persistence": 0,
+        "trigger": 1
+      },
+      "collision_obligation": {
+        "case_id": "I0-B-NEGATIVE-SUPERIOR",
+        "scope": "scope-alpha",
+        "xi_term": "x03",
+        "yi_term": "y03",
+        "require_exact_positive": true,
+        "require_exact_negative": true,
+        "same_case_required": true,
+        "same_scope_required": true
+      },
+      "dbab_law_digest": "a8064bdf7a077e4842534f6f9222e842f2993c1e834b1d55ea6e5ad4a62310bf",
+      "besa_promise_digest": "dc594868997f0734cccab606028e4bf0a1eeb2fa1dd85ab4031cbd5c73b9fbdc"
+    },
+    {
+      "case_id": "I0-C-POSITIVE-SUPERIOR",
+      "outcome": "CONSTRUCTIVE",
+      "verified": true,
+      "positive_mass_milli": 940,
+      "negative_mass_milli": 320,
+      "light_trace": "684e5ddb9617be5018f00330069007fe990b2f25199fdf0742e080acb1031c72",
+      "asht_trace": "3ad5f8a56554f940d7099788c295acbbec7ec42b53bb501cd5ce4fa47fb2075d",
+      "nbes_claim": "8e752c5617af2932d267dcdcb8382c7547b6c521a5468d78c47bf22e058bc7e9",
+      "shadow_receipt": "5c8f2266f87776a4734218fb0334c1cf83f1877a0e6003f47187f26012cbd9c7",
+      "reason": "exact pair collision completed: +mass=940 -mass=320 => CONSTRUCTIVE",
+      "iZ": {
+        "achieved": "constructive support mass=940 > negative mass=320",
+        "critique": "negative critique mass=320 retained as advancement boundary",
+        "next_i0_question": "What additional indicia would stress-test the constructive result for case 'I0-C-POSITIVE-SUPERIOR' inside scope 'scope-alpha'?"
+      },
+      "zero_noi": {
+        "state": 0,
+        "knowledge_creation": 0,
+        "verdict": 0,
+        "authority": 0,
+        "persistence": 0,
+        "trigger": 1
+      },
+      "collision_obligation": {
+        "case_id": "I0-C-POSITIVE-SUPERIOR",
+        "scope": "scope-alpha",
+        "xi_term": "x07",
+        "yi_term": "y07",
+        "require_exact_positive": true,
+        "require_exact_negative": true,
+        "same_case_required": true,
+        "same_scope_required": true
+      },
+      "dbab_law_digest": "5f6373a5d58cb59d6bea5fd1b72b19058da9e1cb6ac8753b9849f543f85389a6",
+      "besa_promise_digest": "80538a5c6e25571f60050a288968c830ecdc6c4b3feaebe2f3a917d3b3c64abf"
+    }
+  ],
+  "falsifier_controls": {
+    "missing_negative_XN07": "PASS_FAIL_CLOSED",
+    "scope_drift": "PASS_FAIL_CLOSED"
+  }
+}

@@ -1,0 +1,26 @@
+name: POC007 public reference
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      RUSTFLAGS: -Dwarnings
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Source identity
+        run: python3 verify_manifest.py
+      - name: Locked offline tests and build
+        run: |
+          rustc --version --verbose
+          cargo test --workspace --all-targets --locked --offline
+          cargo build --release --workspace --all-targets --locked --offline
+          cargo run --release --locked --offline --bin poc007-opls
+      - name: Outcome oracle
+        run: |
+          python3 scripts/reference_oracle.py
+          python3 scripts/static_sanity.py

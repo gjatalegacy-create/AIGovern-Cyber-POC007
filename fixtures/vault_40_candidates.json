@@ -1,0 +1,366 @@
+{
+  "schema": "ess-mai.poc007.vault.v1",
+  "count": 40,
+  "candidates": [
+    {
+      "id": "XP01",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x01",
+      "scope": "scope-alpha",
+      "mass_milli": 705,
+      "evidence": "positive evidence for x01"
+    },
+    {
+      "id": "YP01",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y01",
+      "scope": "scope-alpha",
+      "mass_milli": 695,
+      "evidence": "positive evidence for y01"
+    },
+    {
+      "id": "XN01",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x01",
+      "scope": "scope-alpha",
+      "mass_milli": 500,
+      "evidence": "negative critique for x01"
+    },
+    {
+      "id": "YN01",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y01",
+      "scope": "scope-alpha",
+      "mass_milli": 490,
+      "evidence": "negative critique for y01"
+    },
+    {
+      "id": "XP02",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x02",
+      "scope": "scope-alpha",
+      "mass_milli": 710,
+      "evidence": "positive evidence for x02"
+    },
+    {
+      "id": "YP02",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y02",
+      "scope": "scope-alpha",
+      "mass_milli": 700,
+      "evidence": "positive evidence for y02"
+    },
+    {
+      "id": "XN02",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x02",
+      "scope": "scope-alpha",
+      "mass_milli": 500,
+      "evidence": "negative critique for x02"
+    },
+    {
+      "id": "YN02",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y02",
+      "scope": "scope-alpha",
+      "mass_milli": 490,
+      "evidence": "negative critique for y02"
+    },
+    {
+      "id": "XP03",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x03",
+      "scope": "scope-alpha",
+      "mass_milli": 600,
+      "evidence": "positive evidence for x03"
+    },
+    {
+      "id": "YP03",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y03",
+      "scope": "scope-alpha",
+      "mass_milli": 580,
+      "evidence": "positive evidence for y03"
+    },
+    {
+      "id": "XN03",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x03",
+      "scope": "scope-alpha",
+      "mass_milli": 920,
+      "evidence": "negative critique for x03"
+    },
+    {
+      "id": "YN03",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y03",
+      "scope": "scope-alpha",
+      "mass_milli": 900,
+      "evidence": "negative critique for y03"
+    },
+    {
+      "id": "XP04",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x04",
+      "scope": "scope-alpha",
+      "mass_milli": 720,
+      "evidence": "positive evidence for x04"
+    },
+    {
+      "id": "YP04",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y04",
+      "scope": "scope-alpha",
+      "mass_milli": 710,
+      "evidence": "positive evidence for y04"
+    },
+    {
+      "id": "XN04",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x04",
+      "scope": "scope-alpha",
+      "mass_milli": 500,
+      "evidence": "negative critique for x04"
+    },
+    {
+      "id": "YN04",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y04",
+      "scope": "scope-alpha",
+      "mass_milli": 490,
+      "evidence": "negative critique for y04"
+    },
+    {
+      "id": "XP05",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x05",
+      "scope": "scope-alpha",
+      "mass_milli": 725,
+      "evidence": "positive evidence for x05"
+    },
+    {
+      "id": "YP05",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y05",
+      "scope": "scope-alpha",
+      "mass_milli": 715,
+      "evidence": "positive evidence for y05"
+    },
+    {
+      "id": "XN05",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x05",
+      "scope": "scope-alpha",
+      "mass_milli": 500,
+      "evidence": "negative critique for x05"
+    },
+    {
+      "id": "YN05",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y05",
+      "scope": "scope-alpha",
+      "mass_milli": 490,
+      "evidence": "negative critique for y05"
+    },
+    {
+      "id": "XP06",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x06",
+      "scope": "scope-alpha",
+      "mass_milli": 730,
+      "evidence": "positive evidence for x06"
+    },
+    {
+      "id": "YP06",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y06",
+      "scope": "scope-alpha",
+      "mass_milli": 720,
+      "evidence": "positive evidence for y06"
+    },
+    {
+      "id": "XN06",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x06",
+      "scope": "scope-alpha",
+      "mass_milli": 500,
+      "evidence": "negative critique for x06"
+    },
+    {
+      "id": "YN06",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y06",
+      "scope": "scope-alpha",
+      "mass_milli": 490,
+      "evidence": "negative critique for y06"
+    },
+    {
+      "id": "XP07",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x07",
+      "scope": "scope-alpha",
+      "mass_milli": 950,
+      "evidence": "positive evidence for x07"
+    },
+    {
+      "id": "YP07",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y07",
+      "scope": "scope-alpha",
+      "mass_milli": 930,
+      "evidence": "positive evidence for y07"
+    },
+    {
+      "id": "XN07",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x07",
+      "scope": "scope-alpha",
+      "mass_milli": 330,
+      "evidence": "negative critique for x07"
+    },
+    {
+      "id": "YN07",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y07",
+      "scope": "scope-alpha",
+      "mass_milli": 310,
+      "evidence": "negative critique for y07"
+    },
+    {
+      "id": "XP08",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x08",
+      "scope": "scope-alpha",
+      "mass_milli": 740,
+      "evidence": "positive evidence for x08"
+    },
+    {
+      "id": "YP08",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y08",
+      "scope": "scope-alpha",
+      "mass_milli": 730,
+      "evidence": "positive evidence for y08"
+    },
+    {
+      "id": "XN08",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x08",
+      "scope": "scope-alpha",
+      "mass_milli": 500,
+      "evidence": "negative critique for x08"
+    },
+    {
+      "id": "YN08",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y08",
+      "scope": "scope-alpha",
+      "mass_milli": 490,
+      "evidence": "negative critique for y08"
+    },
+    {
+      "id": "XP09",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x09",
+      "scope": "scope-alpha",
+      "mass_milli": 745,
+      "evidence": "positive evidence for x09"
+    },
+    {
+      "id": "YP09",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y09",
+      "scope": "scope-alpha",
+      "mass_milli": 735,
+      "evidence": "positive evidence for y09"
+    },
+    {
+      "id": "XN09",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x09",
+      "scope": "scope-alpha",
+      "mass_milli": 500,
+      "evidence": "negative critique for x09"
+    },
+    {
+      "id": "YN09",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y09",
+      "scope": "scope-alpha",
+      "mass_milli": 490,
+      "evidence": "negative critique for y09"
+    },
+    {
+      "id": "XP10",
+      "axis": "X",
+      "polarity": "positive",
+      "term": "x10",
+      "scope": "scope-alpha",
+      "mass_milli": 750,
+      "evidence": "positive evidence for x10"
+    },
+    {
+      "id": "YP10",
+      "axis": "Y",
+      "polarity": "positive",
+      "term": "y10",
+      "scope": "scope-alpha",
+      "mass_milli": 740,
+      "evidence": "positive evidence for y10"
+    },
+    {
+      "id": "XN10",
+      "axis": "X",
+      "polarity": "negative",
+      "term": "x10",
+      "scope": "scope-alpha",
+      "mass_milli": 500,
+      "evidence": "negative critique for x10"
+    },
+    {
+      "id": "YN10",
+      "axis": "Y",
+      "polarity": "negative",
+      "term": "y10",
+      "scope": "scope-alpha",
+      "mass_milli": 490,
+      "evidence": "negative critique for y10"
+    }
+  ]
+}

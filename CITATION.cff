@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this exact publication bundle and its source commit when using the public reference POC."
+type: software
+title: "AIGovern-Cyber POC007: Obligation Promise Law to Success — historical reference capsule"
+version: "0.1.2"
+date-released: "2026-10-23"
+authors:
+  - family-names: "Gjata"
+    given-names: "Bledar"
+    affiliation: "Gjata Legacy"
+    orcid: "https://orcid.org/0009-0003-7854-266X"
+license: Apache-2.0
+repository-code: "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007"
+url: "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-007-aigovern-cyber"
+keywords:
+  - ESS-MAI
+  - AIGovern-Cyber
+  - Rust
+  - reproducibility
+  - dual-polarity obligation
+abstract: "A dependency-free historical reference model with fixed fixtures and disclosed limitations. This bundle is distinct from the private AIGovern-Cyber runtime; its Cargo code version remains 0.1.0."

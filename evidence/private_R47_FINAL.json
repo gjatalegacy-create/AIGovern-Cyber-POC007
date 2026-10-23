@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-23T11:04:29.863965+00:00",
+  "freeze_sha256": "f1ebf1f6d5dad9d88dd75e0d0b9cde6e524cee91f6b3189f2d02da1a43196a16",
+  "evidence_manifest_sha256": "8ec0c66d2e9469e4e6877be84707b099cc98ba7269a593726b3e3ba368f50498",
+  "files_frozen": 730,
+  "cargo_tests_passed": 1789,
+  "doctests_passed": 4,
+  "cargo_failed": 0,
+  "cargo_ignored": 0,
+  "warnings": 0,
+  "release_exit_code": 0,
+  "native_checks_passed": 82,
+  "continuity_checks_passed": 100,
+  "fault_observation_checks_passed": 57,
+  "native_verdicts": [
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "confirmed_limits": [
+    {
+      "id": "rollback_to_valid_snapshot_is_not_detected",
+      "observed": true,
+      "classification": "confirmed_limit",
+      "old_snapshot_sha256": "3c1bda0de59eff3ff3fcdaf6c5f2b297a41a014994a2a8dda9388b4dca27b5b5",
+      "new_snapshot_sha256": "406a5e17997b2dfe7bd2acba4d99c668c3412ab7a846d0296946cfbe61def5fe",
+      "old_reference_accepted": true,
+      "newer_reference_result": "not_found",
+      "meaning": "Internal integrity accepts the coherent older file. No external monotonic or authenticated checkpoint is tested or claimed."
+    }
+  ],
+  "active_and_frozen_unchanged": true,
+  "new_product_code": false,
+  "assessment": "Verified bounded governance-core behavior; not universal security certification; valid WAL rollback accepted."
+}
