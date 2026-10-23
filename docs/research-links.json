@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-10-23",
+  "project": "AIGovern-Cyber POC007",
+  "record_scope": "Publication and community documentation following frozen public bundle 0.1.2; no new runtime validation.",
+  "author": {
+    "name": "Bledar Gjata",
+    "orcid": "https://orcid.org/0009-0003-7854-266X"
+  },
+  "organization_status": "Upcoming; organizational rules forthcoming. Public channels do not establish registration.",
+  "links": [
+    {
+      "relation": "source_repository",
+      "url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007"
+    },
+    {
+      "relation": "frozen_public_release",
+      "version": "0.1.2",
+      "url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007/releases/tag/poc007-public-v0.1.2",
+      "source_commit": "1407466d1794f1a11defe1174d16a76724e63bc3"
+    },
+    {
+      "relation": "software_release_doi",
+      "identifier": "10.5281/zenodo.23596907",
+      "url": "https://doi.org/10.5281/zenodo.23596907",
+      "version": "0.1.2",
+      "scope": "Frozen public software archive; not the manuscript or later main-branch documentation.",
+      "concept_doi": "10.5281/zenodo.23596906"
+    },
+    {
+      "relation": "discoverability_record",
+      "platform": "OpenAIRE",
+      "url": "https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.23596907",
+      "metadata_api": "https://api.openaire.eu/graph/v4/research-products?filter=ids.doi%3A10.5281%2Fzenodo.23596907",
+      "record_id": "od______2659::cff643137263dc204c324612a6b2a5de",
+      "observed_status": "UNDER_CURATION",
+      "verified_utc": "2026-10-23T12:53:24+00:00",
+      "scope": "One matching software record returned by both public APIs; not peer review."
+    },
+    {
+      "relation": "public_artifact_mirror",
+      "url": "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-007-aigovern-cyber"
+    },
+    {
+      "relation": "project_website",
+      "url": "https://gjatalegacy-create.github.io/AIGovern-Cyber-POC007/"
+    },
+    {
+      "relation": "manuscript_preprint",
+      "url": "https://gjatalegacy-create.github.io/AIGovern-Cyber-POC007/paper/",
+      "review_status": "Not peer reviewed",
+      "arxiv_status": "Not submitted",
+      "identifier": "10.5281/zenodo.23597026",
+      "doi_url": "https://doi.org/10.5281/zenodo.23597026",
+      "concept_doi": "10.5281/zenodo.23597025",
+      "publication_status": "Published as a Zenodo preprint",
+      "openaire_status": "No matching record returned by Graph API at 2026-10-23T13:07:16+00:00"
+    },
+    {
+      "relation": "parent_project",
+      "url": "https://github.com/gjatalegacy-create/ESS-MAI"
+    },
+    {
+      "relation": "prior_work",
+      "identifier": "10.5281/zenodo.22750188",
+      "url": "https://doi.org/10.5281/zenodo.22750188",
+      "scope": "Earlier ESS-MAI POC003–006 archive; not the DOI of POC007 or this manuscript."
+    },
+    {
+      "relation": "community_channel",
+      "platform": "Hugging Face",
+      "url": "https://huggingface.co/gjata-legacy"
+    },
+    {
+      "relation": "author_channel",
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bledar-gjata-1a527030b/"
+    },
+    {
+      "relation": "community_channel",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/gjatalegacy/"
+    },
+    {
+      "relation": "review_submission",
+      "url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007/issues/new?template=review.yml"
+    },
+    {
+      "relation": "artifact_discussion",
+      "url": "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-007-aigovern-cyber/discussions"
+    }
+  ],
+  "new_publication_doi": "10.5281/zenodo.23596907",
+  "identifier_note": "Listings, identifiers and links establish provenance or discoverability, not scientific validation or independent review.",
+  "new_publication_doi_resource_type": "Software",
+  "manuscript_doi": "10.5281/zenodo.23597026"
+}

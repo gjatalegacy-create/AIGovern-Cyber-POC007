@@ -4,6 +4,8 @@
 
 Bledar Gjata supplied the architectural direction, terminology, semantic constraints and critical corrections. AI coding and reasoning tools assisted source inspection, implementation, test preparation, execution, literature checking and editorial work. Their suggestions were not accepted merely because a model generated them. Human authorship of the architectural proposal does not mean every source line was manually typed by the author. AI assistance is disclosed rather than hidden.
 
+Bledar Gjata reports that he personally inspected the code and its execution through the shell throughout the work. This statement records the author's account of his own review. Shell commands issued by AI-assisted tools are recorded as tool-assisted execution; they are not automatically evidence that the author personally issued or inspected every command. The retained command logs establish particular executions and outcomes, not independent external review. Human inspection, tool-assisted execution and independent reproduction are distinct contributions.
+
 The historical conversation is design input, not execution evidence. A tool's agreement is not an independent scientific endorsement; two models repeating an assumption do not make it true. The method asks for an explicit relation between the claim, source, authority boundary, test and observed result.
 
 ## Working discipline
