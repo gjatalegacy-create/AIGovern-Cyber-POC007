@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "project": "AIGovern-Cyber POC007",
-  "record_scope": "Publication and community documentation following frozen public bundle 0.1.2; no new runtime validation.",
+  "record_scope": "Publication and community documentation following frozen public bundle 0.1.2; no new runtime validation. Includes cross-links to the separate POC008 continuity capsule.",
   "author": {
     "name": "Bledar Gjata",
     "orcid": "https://orcid.org/0009-0003-7854-266X"
@@ -155,6 +155,26 @@
       "platform": "HackerNoon",
       "url": "https://hackernoon.com/u/gjatalegacy",
       "status": "Author profile public; technical article submitted, not yet published"
+    },
+    {
+      "relation": "related_artifact",
+      "name": "AIGovern-Cyber POC008 Continuity",
+      "url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity",
+      "version": "0.1.0",
+      "frozen_public_release": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity/releases/tag/poc008-public-v0.1.0",
+      "source_commit": "84c40ea2679fcbe29ad10faa451a41c576e202f8",
+      "software_doi": "10.5281/zenodo.23613613",
+      "software_doi_url": "https://doi.org/10.5281/zenodo.23613613",
+      "manuscript_doi": "10.5281/zenodo.23613785",
+      "manuscript_doi_url": "https://doi.org/10.5281/zenodo.23613785",
+      "public_artifact_mirror": "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-008-continuity",
+      "mirror_upload_commit": "962519f3071705dc9ad1b35eb69c26a08f6866ac",
+      "review_invitation": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity/issues/1",
+      "artifact_discussion": "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-008-continuity/discussions/1",
+      "review_status": "Public invitations posted 2026-10-24; not completed independent review.",
+      "ci_url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity/actions/runs/40079957984",
+      "ci_status": "Windows and Linux passed at 93707e2d2b9a9f3fb05f894838332d5a2561e9cc; source, tests and dependency files unchanged in frozen release.",
+      "scope": "Separate source-derived PD checkpoint/replay experiment with a new limited WAL adapter. 35 local tests passed; direct checkpoint-byte equality at every prefix of 5 dialogue and 65 synthetic subprocess turns. Valid old history is accepted. Bounded to 4096 turns and 8 MiB checkpoints; no infinite continuity, native knowledge authority or power-loss guarantee."
     }
   ],
   "new_publication_doi": "10.5281/zenodo.23596907",
