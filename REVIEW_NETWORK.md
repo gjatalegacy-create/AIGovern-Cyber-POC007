@@ -1,6 +1,6 @@
 # Review, preservation and discoverability
 
-Status checked on 23 October 2026. These records have different purposes: a review request is not a completed review, an archive is not a security audit, and an index entry does not imply endorsement.
+Status checked on 23 October 2026, with OpenAlex and DataCite observations updated on 24 October 2026 at 14:39–14:40 UTC. These records have different purposes: a review request is not a completed review, an archive is not a security audit, and an index entry does not imply endorsement.
 
 ## POC007
 
@@ -9,7 +9,12 @@ Status checked on 23 October 2026. These records have different purposes: a revi
 - **Publication and citation:** [software DOI](https://doi.org/10.5281/zenodo.23596907) and [preprint DOI](https://doi.org/10.5281/zenodo.23597026). These identify distinct objects. The public capsule remains the historical, bounded reference; the complete private product runtime is not included.
 - **Preservation completed:** Software Heritage [save request 2570192](https://archive.softwareheritage.org/api/1/origin/save/2570192/) succeeded, with a full visit on 23 October 2026. Snapshot `swh:1:snp:e0db9680a3e9f1103b8ea8486a6b3ecd12d2c721` contains main revision `2802df476a62dfbbd612313ff44396c4cb255340` and the frozen `poc007-public-v0.1.2` tag pointing to revision `1407466d1794f1a11defe1174d16a76724e63bc3`. [Inspect the snapshot](https://archive.softwareheritage.org/api/1/snapshot/e0db9680a3e9f1103b8ea8486a6b3ecd12d2c721/). Later documentation is not silently included in that snapshot.
 - **OpenAIRE discoverability:** both the [software](https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.23596907) and [preprint](https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.23597026) returned matching records in the public Graph API. This is indexing, not peer review.
-- **Further indexing requested:** specific metadata inquiries were sent to OpenAlex and Semantic Scholar. No inclusion or profile approval is claimed while responses are pending.
+- **OpenAlex indexing confirmed:** the public API returned [software W7223384049](https://openalex.org/W7223384049) for [version DOI 23596907](https://api.openalex.org/works/https://doi.org/10.5281/zenodo.23596907) and [preprint W7223258585](https://openalex.org/W7223258585) for [version DOI 23597026](https://api.openalex.org/works/https://doi.org/10.5281/zenodo.23597026) on 24 October 2026. Their titles and types match the DataCite version records. OpenAlex uses the respective concept DOIs as primary DOIs and includes the version DOIs among its locations. Indexing does not establish peer review or endorsement, and this observation does not establish why ingestion occurred.
+- **Remaining metadata limits:** both POC007 records link to [author A5147940812](https://api.openalex.org/authors/A5147940812) and retain the supplied ORCID in `raw_orcid`, but the normalized author ORCID remains absent. Semantic Scholar inclusion remains unconfirmed in this status record.
+
+## Related POC008 and POC009
+
+At the same 24 October 2026 observation, direct OpenAlex DOI lookups for POC008 [software](https://doi.org/10.5281/zenodo.23613613) and [preprint](https://doi.org/10.5281/zenodo.23613785), and POC009 [software](https://doi.org/10.5281/zenodo.23614687) and [preprint](https://doi.org/10.5281/zenodo.23614714), returned HTTP 404. A successful six-DOI filter query returned only the two POC007 records. These are dated lookup absences, not a prediction of future indexing. All four source records were findable in DataCite and were created on 24 October 2026.
 
 ## Earlier POC003–006
 
@@ -17,7 +22,7 @@ The [v1.1.1 collection](https://doi.org/10.5281/zenodo.22750188) is research sof
 
 POC005 received [external public technical feedback from Manuela Schrittwieser (MANU-de)](https://github.com/gjatalegacy-create/ESS-MAI/discussions/13) on 22 October 2026. She examined published evidence and described a simplified adversarial model, focusing on semantic reissuance, concurrent authorization and crash recovery. She explicitly did not execute the original Rust POC. The post supplies no exact reviewed commit, runnable model or raw logs. This contribution is acknowledged in the [current review register](https://github.com/gjatalegacy-create/ESS-MAI/blob/main/docs/REVIEW_STATUS.md), separately from independent Rust reproduction and from POC007's status.
 
-The [OpenAIRE collection record](https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.22750188) exists. OpenAlex [W7212575627](https://openalex.org/W7212575627) includes the v1.1.1 DOI among its locations but presents an older version's title; the metadata inquiry asks for accurate version representation without artificial duplicate counts. Software Heritage already retained the parent repository in [snapshot d2d862ac5122383925807c53d2ec4cda7d05b46a](https://archive.softwareheritage.org/api/1/snapshot/d2d862ac5122383925807c53d2ec4cda7d05b46a/) from 14 September 2026.
+The [OpenAIRE collection record](https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.22750188) exists. OpenAlex [W7212575627](https://openalex.org/W7212575627) still includes the v1.1.1 DOI among its locations but presents the older v1.0.0 title as of 24 October 2026. The source DataCite record remains findable with the v1.1.1 title; accurate version representation is still unresolved. Software Heritage already retained the parent repository in [snapshot d2d862ac5122383925807c53d2ec4cda7d05b46a](https://archive.softwareheritage.org/api/1/snapshot/d2d862ac5122383925807c53d2ec4cda7d05b46a/) from 14 September 2026.
 
 ## Automated repository checks and their limits
 
