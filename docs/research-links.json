@@ -175,6 +175,33 @@
       "ci_url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity/actions/runs/40079957984",
       "ci_status": "Windows and Linux passed at 93707e2d2b9a9f3fb05f894838332d5a2561e9cc; source, tests and dependency files unchanged in frozen release.",
       "scope": "Separate source-derived PD checkpoint/replay experiment with a new limited WAL adapter. 35 local tests passed; direct checkpoint-byte equality at every prefix of 5 dialogue and 65 synthetic subprocess turns. Valid old history is accepted. Bounded to 4096 turns and 8 MiB checkpoints; no infinite continuity, native knowledge authority or power-loss guarantee."
+    },
+    {
+      "relation": "related_artifact",
+      "name": "AIGovern-Cyber POC009 Knowledge and Memory",
+      "url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC009-Knowledge-Memory",
+      "version": "0.1.0",
+      "source_commit": "ca7e0925e733e4343ce4f85e4633ab47916a323d",
+      "frozen_public_release": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC009-Knowledge-Memory/releases/tag/poc009-public-v0.1.0",
+      "source_commit_scope": "Frozen public release; executable source, tests, dependencies, fixtures and runners unchanged from tested CI head.",
+      "software_doi": "10.5281/zenodo.23614687",
+      "software_doi_url": "https://doi.org/10.5281/zenodo.23614687",
+      "manuscript_doi": "10.5281/zenodo.23614714",
+      "manuscript_doi_url": "https://doi.org/10.5281/zenodo.23614714",
+      "doi_publication_status": "Software archive and separate, not peer-reviewed preprint published on Zenodo.",
+      "project_website": "https://gjatalegacy-create.github.io/AIGovern-Cyber-POC009-Knowledge-Memory/",
+      "review_invitation": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC009-Knowledge-Memory/issues/1",
+      "review_status": "Public GitHub invitation posted 2026-10-24; not completed independent review.",
+      "ci_url": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC009-Knowledge-Memory/actions/runs/40083832092",
+      "ci_status": "Windows and Ubuntu passed at a24736cb28233331ecefc108317e76cf7e1a5ef0; executable source, tests, dependencies, fixtures and runners unchanged in frozen release.",
+      "source_preservation": {
+        "platform": "Software Heritage",
+        "request_url": "https://archive.softwareheritage.org/api/1/origin/save/2571736/",
+        "request_status": "accepted",
+        "task_status": "pending",
+        "archive_complete_confirmed": false
+      },
+      "scope": "Five fresh-process cycles retain two distinct model-conditional propositions and one missing-input event. 50 root and 19 separately executed science tests, 93 demo checks and 17 actual C ABI checks passed. Source-derived PD/model/FFI primitives plus a disclosed new memory/WAL adapter. The actual C write surface returns CompatibilityHold; the five-cycle success path uses a new Rust callback. No native Shadow knowledge verdict, physical truth or independent scientific evidence. Valid older WAL history is accepted; process-local FFI handles provide no revocation or cross-restart protection."
     }
   ],
   "new_publication_doi": "10.5281/zenodo.23596907",
