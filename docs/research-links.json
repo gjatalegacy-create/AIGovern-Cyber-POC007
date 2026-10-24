@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "updated": "2026-10-24",
   "project": "AIGovern-Cyber POC007",
-  "record_scope": "Publication and community documentation following frozen public bundle 0.1.2; no new runtime validation. Includes cross-links to the separate POC008 continuity capsule.",
+  "record_scope": "Publication and community documentation following frozen public bundle 0.1.2; no new runtime validation. Includes cross-links and dissemination status for the separate ESS-MAI POC003–009 artifacts.",
   "author": {
     "name": "Bledar Gjata",
     "orcid": "https://orcid.org/0009-0003-7854-266X",
@@ -227,6 +227,19 @@
         "status": "No record returned by either direct DOI lookup; a successful six-DOI filter returned only POC007 records.",
         "source_metadata_status": "Both DataCite records were findable and were created on 2026-10-24.",
         "scope": "Dated lookup absence; does not rule out future indexing or records not discoverable under these DOIs."
+      },
+      "source_preservation": {
+        "platform": "Software Heritage",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/8cb7d24c8102bac6284b07ea0a46fb5fbbebb7dd/",
+        "snapshot_swhid": "swh:1:snp:8cb7d24c8102bac6284b07ea0a46fb5fbbebb7dd",
+        "visit_status": "full",
+        "visit_date": "2026-10-24T11:15:22.686+02:00",
+        "archived_main_revision": "84c40ea2679fcbe29ad10faa451a41c576e202f8",
+        "frozen_release_tag": "poc008-public-v0.1.0",
+        "release_swhid": "swh:1:rel:685a091eaa7f825b7650622c4a684c22729abc32",
+        "frozen_release_revision": "84c40ea2679fcbe29ad10faa451a41c576e202f8",
+        "frozen_release_preservation_confirmed": true,
+        "scope": "Snapshot includes the frozen release tag and its target revision. Preservation is not execution, review or validation; later documentation is not included automatically."
       }
     },
     {
@@ -249,10 +262,13 @@
       "ci_status": "Windows and Ubuntu passed at a24736cb28233331ecefc108317e76cf7e1a5ef0; executable source, tests, dependencies, fixtures and runners unchanged in frozen release.",
       "source_preservation": {
         "platform": "Software Heritage",
-        "request_url": "https://archive.softwareheritage.org/api/1/origin/save/2571736/",
-        "request_status": "accepted",
-        "task_status": "pending",
-        "archive_complete_confirmed": false
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/a77fc1031077079b8f723d459b2890f65f736d0b/",
+        "snapshot_swhid": "swh:1:snp:a77fc1031077079b8f723d459b2890f65f736d0b",
+        "visit_status": "full",
+        "visit_date": "2026-10-24T12:01:41.366+02:00",
+        "archived_main_revision": "a24736cb28233331ecefc108317e76cf7e1a5ef0",
+        "frozen_release_preservation_confirmed": false,
+        "scope": "Full visit preserves the tested main revision only. The snapshot has no release tag and does not establish preservation of frozen release ca7e0925e733e4343ce4f85e4633ab47916a323d or later documentation. Preservation is not execution, review or validation."
       },
       "scope": "Five fresh-process cycles retain two distinct model-conditional propositions and one missing-input event. 50 root and 19 separately executed science tests, 93 demo checks and 17 actual C ABI checks passed. Source-derived PD/model/FFI primitives plus a disclosed new memory/WAL adapter. The actual C write surface returns CompatibilityHold; the five-cycle success path uses a new Rust callback. No native Shadow knowledge verdict, physical truth or independent scientific evidence. Valid older WAL history is accepted; process-local FFI handles provide no revocation or cross-restart protection.",
       "openalex_status": {
@@ -266,6 +282,12 @@
         "source_metadata_status": "Both DataCite records were findable and were created on 2026-10-24.",
         "scope": "Dated lookup absence; does not rule out future indexing or records not discoverable under these DOIs."
       }
+    },
+    {
+      "relation": "family_reproduction_task",
+      "url": "https://github.com/gjatalegacy-create/ESS-MAI/issues/3",
+      "scope": "One bounded public experiment per contribution; exact version, commands, observed outcome and limitations remain distinct across POC003–009.",
+      "status": "Public invitation; not completed independent review."
     }
   ],
   "new_publication_doi": "10.5281/zenodo.23596907",
@@ -309,6 +331,53 @@
       "platform": "HackerNoon",
       "status": "Technical article submitted for editorial consideration; not yet published or technically reviewed",
       "author_profile": "https://hackernoon.com/u/gjatalegacy"
+    }
+  ],
+  "outreach_status_20261024": [
+    {
+      "platform": "This Week in Rust",
+      "url": "https://github.com/rust-lang/this-week-in-rust/pull/8914",
+      "status": "Existing single open CFP pull request expanded to POC003–009; not merged or accepted at observation.",
+      "task_url": "https://github.com/gjatalegacy-create/ESS-MAI/issues/3",
+      "scope": "Reproduction request, not newsletter publication or independent review."
+    },
+    {
+      "platform": "ScienceOpen",
+      "url": "https://www.scienceopen.com/",
+      "status": "Existing enquiry extended to the complete public POC003–009 family; response pending.",
+      "scope": "POC003–006 remains software; POC007–009 software and preprint records remain separate. Related-code linking requested where software import is unavailable. No account, import, indexing, acceptance or review confirmed."
+    },
+    {
+      "platform": "Research Compendium",
+      "url": "https://zenodo.org/communities/research-compendium/",
+      "submissions": [
+        {
+          "artifact": "POC008",
+          "software_doi": "10.5281/zenodo.23613613",
+          "status": "Submitted; curator decision pending."
+        },
+        {
+          "artifact": "POC009",
+          "software_doi": "10.5281/zenodo.23614687",
+          "status": "Submitted; curator decision pending."
+        }
+      ],
+      "policy_enquiry_url": "https://github.com/research-compendium/research-compendium.github.io/issues/9",
+      "policy_enquiry_scope": "POC007 deposited manuscript lacks an explicit citation of its software DOI; POC003–006 includes embedded scientific reports. Clarification requested without inventing supplementary relationships. These artifacts have not been represented as submitted to the community.",
+      "scope": "Community submission or policy enquiry is not acceptance, peer review or independent execution."
+    },
+    {
+      "platform": "HAL",
+      "url": "https://doc.hal.science/deposer/deposer-le-code-source/",
+      "status": "One independent-researcher software-deposit eligibility enquiry sent for POC003–009; reply pending.",
+      "scope": "Asks for truthful handling of mandatory affiliation and existing DOI/version identities. No account, deposit, acceptance or independent review confirmed."
+    },
+    {
+      "platform": "protocols.io",
+      "url": "https://www.protocols.io/",
+      "title": "Reproducing Seven Bounded Rust Experiments in ESS-MAI and AIGovern-Cyber (POC003–009)",
+      "status": "Free publication request submitted 2026-10-24; internal screening pending.",
+      "scope": "Nine-step reproduction procedure for the separate POC003–009 capsules. Protocol remains private/pending, no DOI verified, no peer review or independent execution established."
     }
   ]
 }
