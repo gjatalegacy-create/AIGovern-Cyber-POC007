@@ -34,6 +34,11 @@ These links are declared by the author in existing public profiles. Linking them
 | Route | Status at this update | What it does not mean |
 |---|---|---|
 | [PREreview POC007](https://prereview.org/preprints/doi-10.5281-zenodo.23597026) | Review request published | Not a completed review |
+| [PREreview POC008](https://prereview.org/preprints/doi-10.5281-zenodo.23613785) | Review request published 24 October 2026 | Not a completed review |
+| [PREreview POC009](https://prereview.org/preprints/doi-10.5281-zenodo.23614714) | Review request published 24 October 2026 | Not a completed review |
+| [This Week in Rust contribution request](https://github.com/rust-lang/this-week-in-rust/pull/8914) | POC009 call for participation submitted as an open pull request on 24 October 2026, linking the existing [reproduction task](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC009-Knowledge-Memory/issues/1) | Not merged, accepted for the newsletter or independently reviewed at this observation |
+| [ScienceOpen](https://www.scienceopen.com/) | Enquiry sent 24 October 2026 about metadata import and a free community-review route for the existing POC007–009 preprints | No account, import, indexing, review or acceptance confirmed |
+| [Research Compendium on Zenodo](https://zenodo.org/communities/research-compendium/) | POC009 [software deposit](https://doi.org/10.5281/zenodo.23614687) submitted 24 October 2026; curator decision pending | Community submission is not acceptance, peer review or independent execution |
 | [POC005 external feedback](https://github.com/gjatalegacy-create/ESS-MAI/discussions/13) | External technical feedback on public evidence and a described simplified model | Reviewer did not run the original Rust POC; not POC007 validation |
 | [HF POC003–006 review call](https://huggingface.co/datasets/gjata-legacy/ess-mai-executable-prior-art/discussions/1) | Public invitation, with separate capsule discussions | Not independent reproduction |
 | POC008 [GitHub review invitation](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity/issues/1) and [HF discussion](https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-008-continuity/discussions/1) | Public reproduction questions posted 24 October 2026 | Invitations, not completed independent review; findings apply to POC008 only |
