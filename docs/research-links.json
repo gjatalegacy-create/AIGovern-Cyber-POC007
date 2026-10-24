@@ -168,7 +168,7 @@
       "manuscript_doi": "10.5281/zenodo.23613785",
       "manuscript_doi_url": "https://doi.org/10.5281/zenodo.23613785",
       "public_artifact_mirror": "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-008-continuity",
-      "mirror_upload_commit": "962519f3071705dc9ad1b35eb69c26a08f6866ac",
+      "mirror_upload_commit": "a74de21bacbc9780d249fcee374c3f8defe9a4c6",
       "review_invitation": "https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity/issues/1",
       "artifact_discussion": "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-008-continuity/discussions/1",
       "review_status": "Public invitations posted 2026-10-24; not completed independent review.",
