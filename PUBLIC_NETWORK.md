@@ -1,10 +1,10 @@
 # ESS-MAI public identity, artifacts and review routes
 
-Updated 23 October 2026. This register links the author's public channels and distinguishes their roles. Links, accounts, indexing and archival identifiers do not establish scientific validation, novelty or institutional endorsement.
+Updated 24 October 2026. This register links the author's public channels and distinguishes their roles. Links, accounts, indexing and archival identifiers do not establish scientific validation, novelty or institutional endorsement.
 
 ## One research lineage, separate artifacts
 
-**Bledar Gjata / Gjata Legacy → ESS-MAI → POC003–006 and POC007 / AIGovern-Cyber.** POC007 is derived from the ESS-MAI method. The public POC007 capsule is a small, self-contained historical reference, distinct from further private AIGovern-Cyber development. It does not require private runtime code to reproduce its disclosed fixtures.
+**Bledar Gjata / Gjata Legacy → ESS-MAI → POC003–006, POC007 and POC008 / AIGovern-Cyber.** POC007 is derived from the ESS-MAI method. The public POC007 capsule is a small, self-contained historical reference, distinct from further private AIGovern-Cyber development. It does not require private runtime code to reproduce its disclosed fixtures.
 
 | Resource | Authoritative public location | Role |
 |---|---|---|
@@ -16,6 +16,7 @@ Updated 23 October 2026. This register links the author's public channels and di
 | POC007 archive | [Software DOI 10.5281/zenodo.23596907](https://doi.org/10.5281/zenodo.23596907) | Frozen public bundle 0.1.2; [GitHub release](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007/releases/tag/poc007-public-v0.1.2) |
 | POC007 mirror | [Hugging Face artifact](https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-007-aigovern-cyber) | Mirror of the public reference, not an additional independent experiment |
 | POC007 preprint | [DOI 10.5281/zenodo.23597026](https://doi.org/10.5281/zenodo.23597026) | Separate manuscript, not peer reviewed; not an arXiv publication |
+| POC008 continuity | [Source and release](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity/releases/tag/poc008-public-v0.1.0); [software DOI](https://doi.org/10.5281/zenodo.23613613); [preprint](https://doi.org/10.5281/zenodo.23613785); [HF mirror](https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-008-continuity) | Separate bounded PD checkpoint/replay experiment: exact bytes at all 5 + 65 observed steps; 35 local tests and [Windows/Linux CI](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity/actions/runs/40079957984) pass. Valid old history is accepted; no infinite continuity or native knowledge authority. |
 | Public website | [Code, evidence and review](https://gjatalegacy-create.github.io/AIGovern-Cyber-POC007/) | Entry point for reproduction and the paper |
 | Community initiative | [Hugging Face Gjata Legacy](https://huggingface.co/gjata-legacy) | Public research community; organizational rules are forthcoming, no legal registration asserted |
 | Companion UI source | [ESS-MAI UI / Nura Legacy](https://github.com/gjatalegacy-create/ESS-MAI-UI) | Complete UI source, assets and tests; distinct from the POC007 capsule |
@@ -34,6 +35,7 @@ These links are declared by the author in existing public profiles. Linking them
 | [PREreview POC007](https://prereview.org/preprints/doi-10.5281-zenodo.23597026) | Review request published | Not a completed review |
 | [POC005 external feedback](https://github.com/gjatalegacy-create/ESS-MAI/discussions/13) | External technical feedback on public evidence and a described simplified model | Reviewer did not run the original Rust POC; not POC007 validation |
 | [HF POC003–006 review call](https://huggingface.co/datasets/gjata-legacy/ess-mai-executable-prior-art/discussions/1) | Public invitation, with separate capsule discussions | Not independent reproduction |
+| POC008 [GitHub review invitation](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC008-Continuity/issues/1) and [HF discussion](https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-008-continuity/discussions/1) | Public reproduction questions posted 24 October 2026 | Invitations, not completed independent review; findings apply to POC008 only |
 | [Research Software Directory](https://research-software-directory.org/documentation/users/getting-access/) | ORCID access request sent to the published RSD contact | Not yet an approved account or software listing |
 | [OSOR / Interoperable Europe](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor) | Suitability enquiry sent; portal account application pending administrator approval; technical document prepared, not submitted | No public-sector deployment, EU adoption or catalogue acceptance claimed |
 | [JOSS](https://joss.theoj.org/about) | Pre-submission scope/readiness enquiry sent; not a paper submission | Six months of active public development and other gates remain required; acceptance is not established |
