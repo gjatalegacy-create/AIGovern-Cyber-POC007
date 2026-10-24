@@ -67,3 +67,9 @@ Run `python verify_manifest.py` against the manifest belonging to your checkout.
 Review update (23 October 2026): the [PREreview request](https://prereview.org/preprints/doi-10.5281-zenodo.23597026) is published and Software Heritage has archived the public release. See the [review and preservation register](REVIEW_NETWORK.md) for exact identifiers, POC005 external feedback, pending indexing requests, and the limits of automated repository checks.
 
 The [public identity and research network](PUBLIC_NETWORK.md) links ESS-MAI, POC003-007, ORCID, Zenodo, GitHub and Hugging Face, and distinguishes published review requests from pending platform access and editorial enquiries.
+
+## Project, artifact and author links
+
+[GitHub — source](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC007) · [Hugging Face — public mirror](https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-007-aigovern-cyber) · [LinkedIn — author](https://www.linkedin.com/in/bledar-gjata-1a527030b/) · [Zenodo — software archive](https://doi.org/10.5281/zenodo.23596907) · [OpenAIRE — software metadata](https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.23596907) · [ORCID — author](https://orcid.org/0009-0003-7854-266X)
+
+POC007 is a bounded public research capsule derived from [ESS-MAI](https://github.com/gjatalegacy-create/ESS-MAI), not the full private AIGovern-Cyber runtime. The software archive and its separate manuscript keep distinct identifiers and claim boundaries. LinkedIn and ORCID identify author-declared profiles for Bledar Gjata (Gjata Legacy). The OpenAIRE DOI lookup returned the matching software metadata on 24 October 2026; indexing and these cross-links do not establish peer review, certification or endorsement.
